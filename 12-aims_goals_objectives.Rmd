@@ -1,0 +1,89 @@
+# Specific Aims
+
+<!--
+At the conclusion of the third paragraph, the reviewer should know the logical
+steps that you plan to take during the course of the proposed plan of work that will
+allow you to fully test your central hypothesis and achieve your overall objective
+identified in the second paragraph and therefore solve the problem, address the
+issue, or fill the gap in the knowledge base identified in the opening paragraph.
+
+
+clearly identify for the reviewers each of the detailed steps that you will take during the course of
+this grant in order to test the hypothesis or address the critical need and achieve the overall
+objective.
+
+your specific aims or goals must
+clearly grow out of your central hypothesis or statement-of-need because they are the means by
+which you will test the hypothesis or fill the need
+
+brief, informative, attention-
+getting headlines
+
+project, to the extent possible, is not the what (the description of the activity itself) but the why
+(what you expect to achieve once the described activities have been completed)
+
+must fully test your central hypothesis or fill the need
+
+Each aim or goal should be approximately equal with respect to the amount of work it will
+entail and the importance it has to the successful completion of the overall project.
+
+The first aim or
+goal must flow logically into and be related to the second, and so on; however, none can be
+absolutely dependent upon an expected outcome of an earlier aim. 
+
+hypothesis-driven proposal, follow each with a second bullet that summarizes the working
+hypothesis for that aim. If you are writing a statement-of-need
+usually helpful to write a brief descriptor that would help explain the activity (or activities) that will
+be undertaken to achieve the aim or goal.
+
+not necessary (or even advisable) to provide a lot
+of detail her
+-->
+
+Specific aims, goals, and objectives
+aka: "Why do I want to do this?"
+
+- **_Aim 1: Identify learner personas in the biomedical sciences by creating and validating learner self-assessment surveys._**
+  - 1.1: Learner self-assessment survey asking questions about prior programming, statistics, and data knowledge will be used to create learner personas.
+  - 1.2: Personas will encompass a student's prior knowledge using survey data. General background, perception of needs, and special considerations will be added to make each learner persona a complete character.
+- **_Aim 2: Create a data science for biomedical science curriculum based on best education and pedagogy practices._**
+  - 2.1: Learning objectives focused around core data literacy principles in the data science pipeline will be used for each lesson module.
+  - 2.2: Lesson content are created in blocks that can be remixed in classroom or workshop formats both in-person and virtually.
+- **_Aim 3: Assess the short-term and long-term effectiveness of the curriculum based on learning objectives._**
+  - 3.1: Pre/post workshop survey looking at changes to learning objectives.
+  - 3.2: Post workshop will have a self-reported summarize assessment question (i.e., final exam question).
+  - 3.3: Long-term survey will assess whether materials helped with retaining the fundamental knowledge.
+- **_Aim 4: Formative and summative assessments_**
+  - 4.1: asdf
+  - 4.2: asdfasdf
+
+<!--
+Specific activities that you will undertake to achieve the objective of the proposal.
+ 
+1) to delineate for the reviewers exactly what the specific steps that you will
+take during the tenure of this project will be in order to achieve the overall objective identified in
+the second paragraph
+2) to address the important problem or critical need that you identified
+in the opening paragraph
+
+important linkage that must exist
+your aims or goals must grow out of and be completely concordant with either
+your central hypothesis or your statement-of-need.
+
+project into several manageable units
+
+two (as a minimum) and four (as a maximum)
+written as exciting, brief, conceptual headlines
+
+inform the reviewers why you want to do what you are proposing
+conceptually formulated rather than descriptive
+
+"Why do I want to do this?"
+
+related to the others,
+avoid having the feasibility of one aim or goal critically dependent
+upon a specific outcome of a related aim or goal.
+
+-->
+
+

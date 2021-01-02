@@ -1,0 +1,166 @@
+Introduction
+============
+
+<!--
+NIH's mission is to seek fundamental knowledge about the nature and behavior of living systems and the application of that knowledge to enhance health, lengthen life, and reduce the burdens of illness and disability.
+Among the goals of the agency are to develop, maintain, and renew scientific human and physical resources to ensure a continued high return on the public investment in research, and to exemplify and promote the highest level of scientific integrity, public accountability, and social responsibility in the conduct of science.
+In realizing these goals, the NIH provides leadership and direction to programs designed to improve the health of the Nation by conducting and supporting research in various areas.
+-->
+
+keywords:
+data science,
+data literacy,
+community of practice,
+learner personas,
+workshop,
+lesson material,
+FAIR,
+eScience,
+medical science,
+biomedical science,
+pedagogy
+
+Opening:
+
+TODO
+
+<!--
+Write up to four bullets that
+similarly convey the importance of your project to a general area of interest. Prioritize those
+bullets in terms of which ones most closely reflect exactly what your project will be about.
+-->
+
+current knowledge
+importance of project to a general area of interest:
+
+- Democratize data science to the clinicians to better understand their patient population and better communicate with research teams to improve the outcomes of patients.
+- Existing data science learning materials usually lack one of the following features
+  - community oriented
+  - follow a creative commons license
+  - maintained
+  - accessible
+  - clearly display target audience and learning objectives (education and pedagogy)
+- modernize the biomedical data-resouce ecosystem, promote Findable, Accessible, Interoperable, and Reuseable (FAIR) principles, enhance the the data science and research workforce in the biomedical sciences.
+- The accelerating changes in medical education incorporating data science compentencies indicate the growing need of data science education in the biomedical sciences.
+
+<!--
+https://dl.acm.org/doi/abs/10.1145/2729094.2742597
+https://ieeexplore.ieee.org/abstract/document/7016357
+https://www-tandfonline-com.ezproxy.lib.vt.edu/doi/pdf/10.1076/csed.13.2.137.14200?needAccess=true
+https://blog.definitivehc.com/hospital-ehr-adoption
+  According to Definitive Healthcare data from 2020, more than 89 percent of all hospitals have implemented inpatient or ambulatory EHR systems.
+-->
+
+Most important information bits of information of need, in order
+
+- Meaningful use + HITECH Act insentivised all medical records to be electronic by 2014, and by 2020 more than 89% of all hospitals have implemented an EHR system.
+- While EHR systems thave their own data challenges, the influx of electronic data has called for changes in how clinicians undergo training to meet the challenges of evidenced-based medicine using these data.
+- By contextualizing and democratizing the data science skills for clnicians we can provide them
+more capacity explore and make better use of the data.
+- by empowering the people using and working with better data lit/sci skills, we can build the workforce needed to better use and collect the data we need to innovate and progress healthcare
+- Programming courses are generally considered difficult with high dropout rates.
+- Motivation and mindset are some of the intergral roles in learning programming and building life-long learners.
+- A backward design approach using learner personas for creating lessons help keep teaching focused on objectives and help cater the needs of the learner to the overal learning objectives.
+- Data science tools are built around tidy data principles, a core data literacy topic on how to process data.
+  - <list parts of tidy data>
+- Once the lessons are created, it can be freely shared (CC-0) and adapted to individual instructor needs, but the core "tried and true" tested content can remain unchanged and improved.
+
+Gap in knowledge
+Essential pieces that are missing, critical problem, or critical need that will be addressed in proposal
+
+- We are missing the learner personas in the biomedical field
+- Missing learner self-assessment surveys that can be used to identify personas
+- Missing community oriented, open, and maintained lessons targeting learner persona needs grounded in pedagogical practices and theory
+- While we know a lot about the teaching and pedagogy of computer science education,
+less is known about data literacy education,
+and almost nothing is known about data science education.
+
+
+<!--
+
+Catchy opening sentence.
+
+3-4 sentences highlghting important facts and educate why this is an important topic.
+Set the scene for presenting the knowledge gap, problem, or critical need.
+
+Then adresss them.
+
+Reviewers should fully  understand there is a problem to be addressed.
+Have enough knowledge to appreciate why there is a problem and can understand the application.
+
+-->
+
+
+<!--
+https://www.healthcarelaw-blog.com/the-electronic-medical-records-emr-mandate/
+
+Patient Protection and Affordable Care Act (PPACA), and its constitutionality ruling by the United States Supreme Court last June 28, 2012, healthcare reform is on its way. A mandate requiring electronic medical records for all practitioners is a part of PPACA and is set to take effect in 2014. Some mandates included in the Health Insurance Portability and Accountability Act (HIPAA) have been included in and strengthened under the PPACA.
+
+EHR adoption: https://www.healthit.gov/buzz-blog/from-the-onc-desk/survey-ehr-incentive-program
+https://onlinelibrary.wiley.com/doi/abs/10.1111/1475-6773.12135
+clinical benefits in using EHRs, including that they helped physicians access records remotely (81%), and alerted providers of a critical lab value (62%). Most importantly, 78% of respondents said that EHRs “overall, enhanced patient care”.
+
+
+https://www.cdc.gov/ehrmeaningfuluse/introduction.html
+Health Information Technology for Economic and Clinical Health (HITECH) Act
+
+
+https://www.statnews.com/2020/03/27/government-rules-led-electronic-health-records-astray-its-time-to-reimagine-them/
+
+It was clear to me from the beginning of the new ONC testing protocols that almost no clinical oversight had gone into their development.
+Systematized Nomenclature of Medicine — what everyone calls SNOMED — codes
+complexity and reliance on rigid coding systems
+no uniformity in the design of the back-end data. For example, one set of diagnosis codes (ICD-10) was required for reimbursement, while another more complex set of diagnosis codes (SNOMED) was required to document patient care
+The net effect is that a patient’s clinical issues are stored in two incompatible formats
+
+https://www.healthaffairs.org/doi/abs/10.1377/hlthaff.2017.1254
+Merit-based Incentive Payment System (MIPS), users must report quality measures
+
+
+https://med.stanford.edu/content/dam/sm/ehr/documents/EHR-Poll-Presentation.pdf
+59% of physicians users felt that their EHR needed a “complete overhaul.” Users estimated that 62% of their time was spent entering data into the EHR, leaving only 38% of their time to be spent directly with patients. 
+
+search: https://pubmed.ncbi.nlm.nih.gov/?term=%22Electronic+Health+Records%22%5BMesh%5D+AND+burnout%5Bti%5D
+EHR physican burnout
+
+https://dashboard.healthit.gov/evaluations/data-briefs/non-federal-acute-care-hospital-ehr-adoption-2008-2015.php
+    Nearly all reported hospitals (96%) possessed a certified EHR technology in 2015.
+    In 2015, 84% of hospitals adopted at least a Basic EHR system; this represents a 9-fold increase since 2008.
+    In 2015, Basic EHR adoption rates increased by 11% from 2014.
+
+https://www.healthcarelaw-blog.com/the-electronic-medical-records-emr-mandate/
+With the passage of the Patient Protection and Affordable Care Act (PPACA), and its constitutionality ruling by the United States Supreme Court last June 28, 2012, healthcare reform is on its way. A mandate requiring electronic medical records for all practitioners is a part of PPACA and is set to take effect in 2014. Some mandates included in the Health Insurance Portability and Accountability Act (HIPAA) have been included in and strengthened under the PPACA.
+
+Funding for the EMR legislation will cover a span of 10 years. By the end of that time, it is hoped that all practices will have implemented electronic medical records. Incentive programs are available through the federal government. Some professionals meeting federal requirements for EMRs can get up to $44,000 through the Medicare Electronic Health Records Incentive Program. Others who are providing service to patients in a Health Professional Shortage Area might qualify for incentives in excess of $44,000. Incentives for institutions are significantly higher, starting at $2 million, but the requirements are stiffer than for individual professionals.
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4902473/
+EHR-adoption and patient outcomes
+similar outcomes in ehr hospitals and non ehr hospitals wrt medical and surgical care
+To date, we have not yet seen the promised benefits of EHR systems on patient outcomes in the inpatient setting. EHRs may play a smaller role than expected in patient outcomes and overall quality of care.
+
+https://www.mgma.com/getattachment/a6acc774-b5ce-44b1-b98c-d6dcc824db60/MGMA-Annual-Regulatory-Burden-Report-Final.pdf.aspx?lang=en-US&ext=.pdf
+In a survey conducted by the Medical Group Management Association, 76% of respondents felt that MIPS reporting played no role in improving patients’ clinical outcomes.
+
+# https://kristinmullertranscription.com/what-is-the-emr-mandate/
+ehr mandaate timeline
+
+# https://healthitanalytics.com/news/healthcare-big-data-analytics-in-med-school-marks-turning-point
+NYU School of Medicine, which requires students to demonstrate big data competencies like defining patient panels, using population health management data to coordinate care, and chart the evolution of the healthcare continuum may seem like it was designed for older physicians who received their education in a paper-bound, fee-for-service universe.
+https://ace.iime.cloud//
+AMA Accelerating Change in Medical Education Program.
+https://www.ama-assn.org/amaone/accelerating-change-medical-education
+
+- disconnect between the expert committees workign with the data, and the practioners working with patients as evidenced by the ICD-10 diagnosis codes for reimbursement, and the SNOMED diagnosis codes for patient care.
+  - EMR support clincial practice at point-of-care versus adminstrative claims data for insurance reimbursement
+- with so many different coding schemes and communication protocols and database harmonization methods (e.g., HL7, FHIR, and OMOP) democratize the data science skills for the biomedical community.
+- During the rollout, clinical benefits were observed with 78% reporting that EHRs enhanced patient care overall.
+- However by 2018,
+59% of physicians users felt that their EHR needed a “complete overhaul.”,
+being a factor in clinician burnout.
+"Critics complain of complex rigid user interfaces, interminable cascading check boxes, lack of clinical content, and a focus on business and regulatory issues instead of patient care."
+-The fact that so many different coding schemes (28?) and communication protocls
+-Fast Healthcare Interoperability Resources (FHIR) and OMOP standards are a few ways this problem has been approached.
+- That systematically explores domakn influence on data literary and data sci apps
+-->
+
+

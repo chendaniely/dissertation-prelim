@@ -1,0 +1,97 @@
+# Payoff
+
+## Innovation
+
+<!--
+ write specific bullets for any of or all the reasons that you
+can think why your project might be novel, different, or innovative or somehow differentiate itself
+from all other proposals that reviewers will read
+
+identify credible
+novelty.
+
+Being 'the first' is not enough
+(things can never have been done before becuase it's not worth doing)
+though, if it is 'the first' make that clear
+
+avoid including the qualifier "to our knowledge"
+
+do not simply introduce an element of
+novelty or innovation that is transparently contrived.
+-->
+
+Innovation and novelty:
+
+- Existing data science learning materials usually lack one of the following features
+  - community oriented
+  - follow a creative commons license
+  - maintained
+  - accessible
+  - clearly display target audience and learning objectives (education and pedagogy)
+- Lays the groundwork for more rigorous survey validation to identify data science learner personas
+  - In the biomedical science, but also in other domains
+- Personas are not academically novel concepts
+  - but this will be the first set of published personas for learners in the biomedical sciences
+  - The methods here can be replicated for other domains
+  - Methods can be used to create learner personas for more subgroups of data science (e.g., statistics literacy, data management literacy)
+
+<!--
+Why the proposed study should be considered novel, innovative, or unique.
+Approach matters.
+-->
+
+## Expected outcomes
+
+<!--
+exactly what they can expect from the
+successful completion of your project as outcomes
+
+"products" should collectively
+validate your central hypothesis or critical need and attain your originally stated objective for the
+grant proposal.
+
+Accompany each of them with a precise, substantive statement of why that
+expected outcome is important.
+
+Avoid using empty generalities
+
+one bullet and one clarifier for each of your identified aims 
+-->
+
+- Expected outcome for Aim 1:
+  - Why this is important
+- Expected outcome for Aim 2:
+  - Why this is important
+- Expected outcome for Aim 3:
+  - Why this is important
+- Expected outcome for Aim 4:
+  - Why this is important
+
+<!--
+what you will have accomplished once your project is completed.
+All expected outcomes.
+deliverables return on the investment for agency.
+Expectations should collectively validate hypothesis or fill critial need.
+-->
+
+## Impact
+
+<!--
+one or two bullets that will generally convey why your expected
+outcomes will have a positive impact
+
+ impact must relate well to both your field and the
+overall mission of the funding agency
+-->
+
+Goes to the core of the NIH mission of promoting scientific integrity in the medical and biomedical sciences.
+
+<!--
+1-2 sentences precsely how the accomplishments will positively affect the mission of agency, field, and discipline.
+Segue into important significance paragraph.
+written in a general level.
+"does what i have written generally convery to the reviewers what the impact of the expecded new knowledge will be once it has been applied?"
+impact to touch + link to the problem + critical need.
+-->
+
+## Significance

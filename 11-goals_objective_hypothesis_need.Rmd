@@ -1,0 +1,194 @@
+# Long-term Goals
+
+<!--
+Convince the reviewers that we are qualified to address this problem.
+Continuum of professional activies, career goal, planning to become an expert.
+Link long-term goals with key problem.
+Encompass the problem within the professional activities and long-term goals.
+Link goals with funding agency mission.
+-->
+
+<!--
+encompass the problem:
+- long-term professional (career) goal
+- what is the continuum of activites that you intend to follow
+- niche that you have carved out to be an acknowledged expert?
+-->
+
+Long-term professional (career) goal:
+
+- Build a computational community of practice for the biomedical sciences by teaching and improving the data science and data literacy skills for medical practitioners so they can better convey their own domain expertise within science teams.
+- Create community-oriented, open, maintained, and focused data science learning materials from biomedical science learner personas using surveys from learners
+
+
+# Objective
+
+<!--
+Objective is to fill the knowledge gap, save the problem, and adress the need.
+link the objective to you, and the long-term goals.
+But the objective is a single step.
+How did you formulate this hypothesis? Usually prelim data + existing knowledge.
+-->
+
+Exactly what your specific objective for this proposal will be:
+
+- Create community-oriented, open, maintained, and focused data science learning materials from biomedical science learner personas using surveys from learners
+
+by:
+
+1. Survey and identify and create learner personas for the biomedical community.
+2. Create a set of CC-0 lessons for the biomedical community to learn data science skills.
+3. Assess the effectiveness of the lesson materials.
+
+
+# Hypothesis
+<!--
+These need to be strongly linked to the objective.
+Objective is obtained by testing the hypothesis.
+Make it directional, if possible, i.e., this is the best bet that explains the phenomenon.
+Must be objectively testable, not something that is  designed to prove a predetermined conclusion.
+Preliminary results + existing knowledge base.
+At least two possible outcomes (i.e., not truism).
+-->
+
+<!--
+write a hypothesis that,
+when tested, will result in attainment of the objective for this proposal. Remember, a well-written
+hypothesis must be objectively testable and cannot project a predetermined conclusion. It must
+also be compatible with all existing known information. Finally, this hypothesis must include the
+facts that will set up the specific aims or goals that you will write below, which will be the means of
+testing it.
+
+write a second bullet that accurately
+conveys exactly how it has been formulated (i.e., on what basis did you choose it from
+alternatives that were available to you [and there must be alternatives]?)
+
+emphasize the value of your own work or limitary findings in formulating this central
+hypothesis.
+
+-->
+
+Hypothesis:
+
+- Learning materials with an eye towards tidy data principles is an effective way to teach the data science and data literacy skills that will help learners incorporate programming and data science skills from their spreadsheet workflows.
+  - Learning material effectiveness will be guaged with surveys, which will introduce survey response biases.
+
+How hypothesis is formulated:
+
+- Data science tools are built around inputs that are defined by tidy data principles.
+  - Spreadsheet programs make it easy to treat data sets as a visualization, which make the data less flexible for multiple uses
+    - Lesson efficacy will be tested against learning objectives
+  - It is possible programming may not be incorporated by learners, but data may be curated better
+
+
+<!--
+We hypothesize that
+
+1. Creating learner personas will create better educational content because they will be more tailored to the needs of the leaners.
+2. Learning materials with an eye towards tidy data principles will better transition students out of a spreadsheet program into programming.
+3. Programming workshops focused on data literacy will give learners confidence to efficiently work with raw data for reproducible results.
+4. Programming workshops focused on data literacy will help learners curate better data for research.
+-->
+
+
+<!--
+# https://www.sciencedirect.com/science/article/pii/S1877050916310006
+
+-->
+
+# Statement of Need
+
+
+<!--
+ give the reviewers the underlying reason - the rationale - for your
+decision to pursue this project.
+
+appealing to the funding agency and mission
+
+The rationale is not a justification of why you have decided to attack a
+problem and it cannot be that the problem you have selected is an
+interesting one that is worthy of study
+
+the fundamental reason that you decided to
+become involved in the project in the first place
+
+the statement of rationale must tell the reviewers what will become possible after
+the project has been completed that is not possible now
+
+ must convey that when all the activities supported by the grant
+have been completed, you will be able to take the step that the gap is preventing in the
+knowledge base or the critical need that you have identified
+
+# https://datascience.nih.gov/sites/default/files/NIH_Strategic_Plan_for_Data_Science_Final_508.pdf
+-->
+
+Statement of rationale
+
+- Bridge the skills gap between medical practitioners and domain experts in the biomedical sciences with the analysts, researchers, and data scientists to make better use of data (storage, FAIR, stewardship) in data science teams
+by creating a computational community of practice that can enhance workforce development,
+modernize the data ecosystem, work with data science tools for sustainable and open science.
+
+<!--
+Can also be statement-of-need driven.
+Nothing will actually be tested.
+
+1) what you plan to do (in genera)
+2. what you propose will fill the knowlede gap or address problem
+3. we are well prepared to do the propsed work and conducive to its success
+-->
+
+
+# Qualifications
+
+<!--
+ qualifications of the investigators
+ environment and institution in which the proposed work will be carried out
+-->
+
+Qualifications and institutional environment
+
+Personnel
+
+- Daniel Chen
+  - Master's of Public Health
+  - Worked as a data manager in a clinical trials coordination team
+  - Built agent-based epidemiological simulation models 
+  - Learned how to teach scientific programming through The Carpentries since 2014
+  - RStudio Tidyverse teaching industry certification
+  - Instructor trainer through The Carpentries to teach new instructors how to teach learners
+  - Taught numerous data science workshops for summer programs, conferences, and clients
+  - Given numerous conference talks on reproducible science
+  - Maintain open lessons through The Carpentries, and building matainer community
+
+- Anne Brown
+  - BEL: DB + BBL
+  - University Libraries, Data Services
+  - Carpentries instructor, 2019
+
+<!--
+iTHRIV CTSA Grant citation: https://www.ithriv.org/how-to-cite-the-ithriv
+-->
+
+- Alex Hanlon
+  - Director: Biostatistics
+  - Co-Director iTHRIV BERD Methods Core: Biostatistics, Epidemiology, and Research Design (BERD) Core
+  - iTHRIV (Ingegrated Translational Health Research Institute of Virgina) CTSA (Clinical and Translational Sciences Awards Program)
+  
+- Dave Higdon
+  - Chair: Statistics department
+
+- Nikki Lewis
+  - Honors College
+  - Education and pedagogy
+
+Combined team experience
+
+- Data Science Education: 7 (Dan) + XXXXX
+
+Institutional environment
+
+- Virginia Tech
+  - The Carpentries
+  - Open@VT (common interests)
+  - DataBridge, Bevan Brown Lab, Brown experiential learning 
+  - Universitiy Libraries, Data Services
