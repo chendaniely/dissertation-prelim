@@ -51,11 +51,9 @@ aka: "Why do I want to do this?"
   - 2.2: Lesson content are created in blocks that can be remixed in classroom or workshop formats both in-person and virtually.
 - **_Aim 3: Assess the short-term and long-term effectiveness of the curriculum based on learning objectives._**
   - 3.1: Pre/post workshop survey looking at changes to learning objectives.
-  - 3.2: Post workshop will have a self-reported summarize assessment question (i.e., final exam question).
+  - 3.2: Post workshop will have a self-reported summative assessment question (i.e., final exam question).
   - 3.3: Long-term survey will assess whether materials helped with retaining the fundamental knowledge.
-- **_Aim 4: Formative and summative assessments_**
-  - 4.1: asdf
-  - 4.2: asdfasdf
+  - 3.4: Workshop will have formative assessments to see if students are meeting learning objectives.
 
 <!--
 Specific activities that you will undertake to achieve the objective of the proposal.
