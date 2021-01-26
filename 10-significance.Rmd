@@ -41,6 +41,32 @@ Once the lessons are created,
 it can be freely shared (e.g., using a CC-0 creative commons license) and improved upon,
 but also has the flexibility to be adapted to individual instructor needs.
 
+We focus the materials around tidy data principles because the data science process 
+requires a tidy dataset to begin the cycle of understanding the data before results can be communicated (Figure \@ref(fig:r4dsDs)).
+
+```{r, echo=FALSE}
+r4ds_ds_caption <- "Figure taken from the R for Data Science book [@wickhamR4ds]."
+```
+
+```{r r4dsDs, fig.cap=r4ds_ds_caption, echo=FALSE}
+knitr::include_graphics("https://github.com/hadley/r4ds/raw/master/diagrams/data-science.png")
+```
+
+Unfortunately, the data science process is not this linear, and requires many smaller feedback loops (Figure \@ref(fig:dsFigure)).
+Notably, data science products usually end up with some decision or action that will affect the world.
+This makes each step of the data science process influential to the final set of decisions.
+Notably, each step of the data science pipeline is a data set,
+and the data literacy skills needed to process and work with the data in each step is paramount to the final results.
+
+```{r, echo=FALSE}
+ds_figure_caption <- "Steps in a data science pipeline showing the mini feedback loops that affect the final decision which will have some consequence in the world [@Chen2020]."
+```
+
+```{r dsFigure, fig.cap=ds_figure_caption, echo=FALSE}
+knitr::include_graphics("https://github.com/chendaniely/data_science-figure/raw/main/fig/data_science_figure.png")
+```
+
+
 This proposal seeks to address the following knowledge gaps in the literature:
 (1) There are no formal learner personas for the biomedical community and the assessment tools to identify and create learner personas do not exist.
 (2) Data science learning materials for the biomedical sciences lack community oriented, open, and maintained lessons targeting learner persona needs grounded in pedagogical practices and theory.
@@ -73,7 +99,6 @@ dendo_caption <- "Shows the 4 clusters created from the hierarchical clustering 
 These cluster assignments were then combined with the survey responses to identify the personas.
 From left to right: experts, clinicians, students, and academics."
 ```
-
 
 ```{r dendogram4, fig.cap=dendo_caption, echo=FALSE}
 fs::file_copy(here::here("../dissertation-analysis/output/persona/dendogram_4.png"),
@@ -148,14 +173,14 @@ meeting the learning objectives.
 It will also be the first set of data science specific formative assessments focused on data literacy topics,
 and not basic programming concepts in the computer science literature.**
 By keeping both the learning materials from Aim 2, and the assessment tools focused on learning objectives,
-we hope that these will lead to better learning outcomes in the learners.
+we hope that these will lead to better learning outcomes in the learners by looking at a final summative assessment question (Figure \@ref(fig:postSummativeAssessment))
 
 ```{r, echo=FALSE}
 post_summative_assessment_caption <- "Shows the responses to a summative assessment question at the end of the workshop. The question asked the learners about a learner's comfort in loading a tabulated dataset, tidy it up, and perform a small analysis."
 ```
 
 
-```{r post_summative_assessment, fig.cap=post_summative_assessment_caption, echo=FALSE}
+```{r postSummativeAssessment, fig.cap=post_summative_assessment_caption, echo=FALSE}
 fs::file_copy(here::here("../dissertation-analysis/output/survey/03-post_workshop/Q5.1.png"),
               here::here("./figs/"), overwrite = TRUE)
 knitr::include_graphics("./figs/Q5.1.png")
