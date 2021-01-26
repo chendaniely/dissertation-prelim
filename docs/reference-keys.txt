@@ -1,9 +1,13 @@
+fig:dendogram4
+fig:lo4
 summary-statement
 resume-and-summary-of-discussion
 description-provided-by-applicant
 public-health-relevance
 critiques
-introduction
+significance
+importance-of-the-problem-to-be-addressed
+rigor-of-prior-research-supporting-the-aims
 long-term-goals
 objective
 hypothesis
@@ -14,7 +18,7 @@ payoff
 innovation
 expected-outcomes
 impact
-significance
+significance-1
 research-strategy
 approach
 aim-1

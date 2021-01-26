@@ -1,5 +1,5 @@
-Introduction
-============
+# Introduction
+
 
 <!--
 NIH's mission is to seek fundamental knowledge about the nature and behavior of living systems and the application of that knowledge to enhance health, lengthen life, and reduce the burdens of illness and disability.
@@ -21,6 +21,8 @@ biomedical science,
 pedagogy
 
 Opening:
+
+2,314 exabytes of new medical data is projected to be produced in 2020 [@stewartHealthcareDataVolume2020].
 
 TODO
 

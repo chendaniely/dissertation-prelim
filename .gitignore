@@ -1,5 +1,6 @@
 *.log
 *.tex
+figs/
 
 .Rproj.user
 .Rhistory
