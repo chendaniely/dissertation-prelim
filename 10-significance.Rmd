@@ -185,3 +185,17 @@ fs::file_copy(here::here("../dissertation-analysis/output/survey/03-post_worksho
               here::here("./figs/"), overwrite = TRUE)
 knitr::include_graphics("./figs/Q5.1.png")
 ```
+
+## Significance of the Expected Research Contribution
+
+Upon successful completion of the proposed studies,
+we expect our contribution to be a framework of how to create domain specific data science learning materials.
+The personas from the study can be used when teaching data science to new learners in the medical and biomedcal sciences.
+The surveys used to create the personas can be used to other domains which can inform instructors about their learners.
+In addition, we are performing one of the few studies that look in to how students learn in a data literacy and
+data science context, not in a computer science context.
+*This contribution is expected to be significant because of the growing need in the workforce for data science education,
+and this study not only creates data science learning materials following best education and petagogical practices,
+but also creates a curriculum in the biomedical sciences domain and creates the tools and framework
+for expanding the content to other domains.*
+We also assess the effectiveness of formative assessment questions in learning the data science and data literacy contexts.
