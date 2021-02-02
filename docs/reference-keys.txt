@@ -6,3 +6,12 @@ fig:postSummativeAssessment
 significance
 importance-of-the-problem-to-be-addressed
 rigor-of-prior-research-supporting-the-aims
+significance-of-the-expected-research-contribution
+innovation
+approach
+human-subject-research
+introduction
+hypothesis
+experimental-design
+timeline
+appendix
