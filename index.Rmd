@@ -20,9 +20,9 @@ description: "This is a minimal example of using the bookdown package to write a
   - 1.2: Validate learner self-assessment survey.
   - 1.3: Personas will encompass a student’s prior knowledge using survey data. General background, perception of needs, and special considerations will be added to make each learner persona a complete character.
 - **_Aim 2: Create an effective data science for biomedical science curriculum based on best education and pedagogy practices._**
-  - 2.1: Learning objectives focused around core data literacy principles in the data science pipeline will be used for each lesson module.
+  - 2.1: Learning objectives focused on core data literacy principles in the data science pipeline will be used for each lesson module.
   - 2.2 Lesson content follow best educational and pedagogical best practices.
   - 2.3 Assess the effectiveness of learning materials.
-- **_Aim 3: Assess the effectiveness of formative assessments in learning learning objectives._**
-  - 3.1: Implement an experiment for conduting formative and summative assessment question types.
-  - 3.2: Assess the effectiveness of targeted feedback in autograding systems used in formative and summative feedback.
+- **_Aim 3: Assess the effectiveness of formative assessments in learning objectives._**
+  - 3.1: Implement an experiment for conducting formative and summative assessment question types.
+  - 3.2: Assess the effectiveness of targeted feedback in auto-grading systems used in formative and summative feedback.

@@ -1,2 +1,37 @@
-Appendix
-========
+# Appendix
+
+```{r surveySelfQ31, echo=FALSE, out.width= "50%", out.extra='style="float:left; padding:10px"'}
+fs::file_copy(here::here("../dissertation-analysis/", "./output", "survey", "01-self_assessment", "Q3.1.png"),
+              here::here("./figs/"), overwrite = TRUE)
+knitr::include_graphics(here::here("./figs/Q3.1.png"))
+```
+
+```{r surveySelfQ41, echo=FALSE, out.width= "50%", out.extra='style="float:right; padding:10px"'}
+fs::file_copy(here::here("../dissertation-analysis/", "./output", "survey", "01-self_assessment", "Q4.1.png"),
+              here::here("./figs/"), overwrite = TRUE)
+knitr::include_graphics(here::here("./figs/Q4.1.png"))
+```
+
+```{r surveySelfQ42, echo=FALSE, out.width= "50%", out.extra='style="float:left; padding:10px"'}
+fs::file_copy(here::here("../dissertation-analysis/", "./output", "survey", "01-self_assessment", "Q4.2.png"),
+              here::here("./figs/"), overwrite = TRUE)
+knitr::include_graphics(here::here("./figs/Q4.2.png"))
+```
+
+```{r surveySelfQ44, echo=FALSE, out.width= "50%", out.extra='style="float:right; padding:10px"'}
+fs::file_copy(here::here("../dissertation-analysis/", "./output", "survey", "01-self_assessment", "Q4.4.png"),
+              here::here("./figs/"), overwrite = TRUE)
+knitr::include_graphics(here::here("./figs/Q4.4.png"))
+```
+
+```{r surveySelfQ52, echo=FALSE, out.width= "50%", out.extra='style="float:left; padding:10px"'}
+fs::file_copy(here::here("../dissertation-analysis/", "./output", "survey", "01-self_assessment", "Q5.2.png"),
+              here::here("./figs/"), overwrite = TRUE)
+knitr::include_graphics(here::here("./figs/Q5.2.png"))
+```
+
+```{r surveySelfQ64, echo=FALSE, out.width= "50%", out.extra='style="float:right; padding:10px"'}
+fs::file_copy(here::here("../dissertation-analysis/", "./output", "survey", "01-self_assessment", "Q6.4.png"),
+              here::here("./figs/"), overwrite = TRUE)
+knitr::include_graphics(here::here("./figs/Q6.4.png"))
+```

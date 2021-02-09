@@ -4,9 +4,6 @@ fig:dendogram4
 fig:lo4
 fig:postSummativeAssessment
 significance
-importance-of-the-problem-to-be-addressed
-rigor-of-prior-research-supporting-the-aims
-significance-of-the-expected-research-contribution
 innovation
 approach
 human-subject-research

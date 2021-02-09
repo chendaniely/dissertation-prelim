@@ -1,5 +1,4 @@
-Timeline
-========
+# Timeline
 
 ```{r, echo=FALSE, warning=FALSE}
 library(DiagrammeR)

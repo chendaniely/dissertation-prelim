@@ -1,5 +1,5 @@
-Innovation
-==========
+# Innovation
+
 
 <!--
 - Existing data science learning materials usually lack one of the following features
@@ -17,31 +17,35 @@ Innovation
 -->
 
 **Our work creates and validates a survey that can be used in the biomedical science to create learner personas.**
-We've adapted survey questions from other educators to create 4 surveys:
-self-assessment, pre-workshop, post-workshop, and long-term workshop.
-These surveys are general enough to capture data literacy, programming, and statistics knowledge,
-while also being domain specific and flexible to be adapted to other domains.
-We've also validated these surveys so they can be used for further studies and as a tool for educators,
-and lays the groundwork for more survey external validation to identify data science learner personas.
-The surveys have been used to create learner personas which are the first set of published personas for learners in the biomedical sciences,
-and the methods used can be used to create learner personas for other domains and other subgroups of data science
-(e.g., statistics literacy, data management literacy)
+We have adapted survey questions from
+other educators to create 4 surveys: self-assessment, pre-workshop,
+post-workshop, and long-term workshop. These surveys are general enough to
+capture data literacy, programming, and statistics knowledge, while also being
+domain specific and flexible to be adapted to other domains. Surveys will be
+validated so they can be used for further studies and as a tool for educators
+and lays the groundwork for more survey external validation to identify data
+science learner personas. The surveys are used to create learner personas which
+are the first set of published personas for learners in the biomedical sciences,
+and the methods used can be used to create learner personas for other domains
+and other subgroups of data science (e.g., statistics literacy, data management
+literacy)
 
-
-**The learning materials we have created are the only ones that link the data literacy skills to the overall data science process.**
-Many books around data science mainly focus on the actual model fitting and evaluation of the data science process.
-Other books on data processing go through too many data processing details without having meaningful payoffs.
-The content we have created using a backwards design approach always frames key data science steps in the
-context of data literacy and data processing pipelines.
-This creates a more holistic set of topics that are taught at the point of need,
-while highlighting avenues for further learning.
-In addition, the materials created are one of the few that are community oriented,
-has a creative commons license, accessible,
-and follows pedagogical best practices that clearly displays target audience and learning objectives.
+**Theses learning materials link the data literacy skills to the overall data science process.**
+Many resources around data science mainly focus on the actual
+model fitting and evaluation of the data science process
+[@krossDemocratizationDataScience2020]. Others that focus on data processing
+focus on discrete steps without incorporating the overall data literacy
+concepts. The content we have created using a backwards design approach always
+frames key data science steps in the context of data literacy and data
+processing pipelines. This creates a more holistic set of topics that are taught
+at the point of need, while highlighting avenues for further learning. In
+addition, the materials created are one of the few that are community oriented,
+has a creative commons license, accessible, and follows pedagogical best
+practices that clearly displays target audience and learning objectives.
 
 **Our experiments will teach us more about learning data science and data literacy skills, not simply programming and computer science concepts.**
-A lot of literature around computer science education is focused on the programming and topics
-used in computer science classes.
-The formative question types used in computer science education informs the types of questions
-used in data literacy and data science, however,
-little is known about what formative question topics inform learning objectives in data science curriculum.
+A majority of literature centered around computer science education is focused
+on the programming and topics used in computer science classes. The formative
+question types used in computer science education informs the types of questions
+used in data literacy and data science, however, little is known about what
+formative question topics inform learning objectives in data science curriculum.
