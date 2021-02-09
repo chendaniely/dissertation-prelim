@@ -5,4 +5,5 @@ word:
 
 book:
 	rm -rf docs/*
+	rm -rf figs/*
 	Rscript -e "bookdown::render_book('.')"
