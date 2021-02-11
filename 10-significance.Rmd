@@ -20,21 +20,21 @@ the data science and research workforce in the biomedical sciences.
 
 The Health Information Technology for Economic and Clinical Health (HITECH) Act
 of 2009 included the concept of Electronic Health Records - Meaningful Use
-(EHR-MU), which incentivized all medical records to be electronic by 2014.
+(EHR-MU), which incentivized all medical records to be electronic by 2014 [@rightsocrHITECHActEnforcement2009; @HITECHActSummary; @HealthITLegislation].
 Currently, in 2020 more than 89% of all hospitals have implemented an EHR
-system. While EHR systems have their own data challenges, the influx of
+system [@DoesHospitalEHR]. While EHR systems have their own data challenges, the influx of
 electronic data has called for changes in how clinicians undergo training to
-meet the challenges of evidenced-based medicine by using these data. By
+meet the challenges of evidenced-based medicine by using these data [@AcceleratingChangeMedical; jenniferbresnickHealthcareBigData2015]. By
 contextualizing and democratizing data science skills for clinicians, we can
 provide them more capacity to explore and make better use of the data
 [@krossDemocratizationDataScience2020]. Additionally, by empowering those in or
 interested in a biomedical profession with better data literacy and data science
 skills, we can expand the workforce needed to better use and collect the data we
 need to innovate and progress health care. We can accomplish this by learners to
-the programming tools used for data analytics.
+the programming tools used for data analytics [@farrellPowerPitfallsPotential2018].
 
 Programming courses are generally inaccessible for someone with a different
-domain base with high dropout rates [@ogierEnhancingCollaborationResearch2018].
+domain base with high dropout rates and a steep learning curve [@ogierEnhancingCollaborationResearch2018; @farrellPowerPitfallsPotential2018].
 Motivation and mindset are some of the integral roles in learning programming
 and building life-long learners [@ambrose2010learning]. A backward design
 approach using learner personas for creating lessons help keep teaching focused
@@ -51,10 +51,10 @@ the flexibility to be adapted to individual instructor needs.
 There is emphasis and need to center materials for individuals in biomedical
 fields that center around tidy data principles because the data science process
 requires a tidy dataset to begin the cycle of understanding the data before
-results can be communicated (Figure @ref(fig:r4dsDs)).
+results can be communicated (Figure \@ref(fig:r4dsDs)).
 
 ```{r, echo=FALSE}
-r4ds_ds_caption <- "Figure taken from the R for Data Science book [@wickhamR4ds]."
+r4ds_ds_caption <- "**Typical data science project.** Diagram of a typical data science project showing the loop iteration of transforming, modeling, and visualizing data before insights can be communicated. Figure taken from the R for Data Science book [@wickhamR4ds]."
 ```
 
 ```{r r4dsDs, fig.cap=r4ds_ds_caption, echo=FALSE}
@@ -63,14 +63,14 @@ knitr::include_graphics("https://github.com/hadley/r4ds/raw/master/diagrams/data
 
 Unfortunately, the process of understanding and drawing conclusions from data is
 not this linear, and requires many smaller feedback loops (Figure
-@ref(fig:dsFigure)). Notably, data science products usually end up with some
+\@ref(fig:dsFigure)). Notably, data science products usually end up with some
 decision or action that will affect the world. This makes each step of the data
 science process influential to the final set of decisions. Notably, each step of
 the data science pipeline is a data set, and the data literacy skills needed to
 process and work with the data in each step is paramount to the final results.
 
 ```{r, echo=FALSE}
-ds_figure_caption <- "Steps in a data science pipeline showing the mini feedback loops that affect the final decision which will have some consequence in the world [@Chen2020]."
+ds_figure_caption <- "**Steps in a data science pipeline.** Shows the mini feedback loops that affect the final decision which will have some consequence in the world [@Chen2020]. There are many feedback loops within the data science process to ensure an accurate analysis for a proper decision that will feedback to the surrounding world."
 ```
 
 ```{r dsFigure, fig.cap=ds_figure_caption, echo=FALSE}
@@ -100,7 +100,7 @@ of needs, and special considerations [@wilson2019teaching]. These personas can
 be used along with a backwards lesson design method to keep teaching focused on
 learning objectives, and keep assessment materials within the scope of the
 learning materials [@wilson2019teaching]. To identify the learner personas,
-adaption of questions from The Carpentries (insert citations), "How Learning
+adaption of questions from The Carpentries (@jordanAnalysisSoftwareData2018; @jordanDataCarpentryAssessment2016; @karil.jordanAnalysisSoftwareCarpentry2017; @karil.jordanAnalysisCarpentriesLongTerm2017; @jordanAnalysisCarpentriesLongTerm2018; jordanAnalysisCarpentriesLongTerm2020), "How Learning
 Works" [@ambrose2010learning], and "Teaching Tech Together"
 [@wilson2019teaching] and focused on 3 knowledge domains: programming knowledge,
 data knowledge, and statistics knowledge will be created. This learner
@@ -110,7 +110,6 @@ deliver content and competencies. Personas will be crafted based on the 3
 knowledge domains in data science and will be sent out to list serves and
 results can be clustered to identify personas using hierarchical clustering
 [@zagallo2019through].
-
 **The personas created can help future educators in the biomedical sciences
 teaching data science skills focus their content, so they are relevant to the
 population and address their needs. The survey and persona clustering
@@ -118,7 +117,7 @@ methodology can be adapted and utilized to create data science materials for
 other professional domains.**
 
 ```{r, echo=FALSE}
-dendo_caption <- "Shows the 4 clusters created from the hierarchical clustering using euclidean distance and ward's.
+dendo_caption <- "**Learner self-assessment clusters.** Shows the 4 clusters created from the hierarchical clustering using euclidean distance and ward's.
 These cluster assignments were then combined with the survey responses to identify the personas.
 From left to right: experts, clinicians, students, and academics."
 ```
@@ -155,10 +154,10 @@ focused lessons and reinforce the learning objectives by creating a series of
 formative assessments [@wilson2019teaching; @ambrose2010learning]. To test the
 content and effectiveness of the materials and its learning objectives, we use a
 series of pre-workshop and post-workshop surveys to determine learner’s
-confidence in the learning objectives (TODO: carpentries citation).
+confidence in the learning objectives [@jordanAnalysisSoftwareData2018; @jordanDataCarpentryAssessment2016; @karil.jordanAnalysisSoftwareCarpentry2017].
 
 ```{r, echo=FALSE}
-lo4_caption <- "Shows the changes from the pre-wokshop and post-workshop responses. The numbers show the differences from the pre-workshop counts, from the post-workshop counts. White (0) means there was a net 0 difference between reponses. Blue represents where more responses went to after the workshop and red represents the number of people who migrated from a particular response after the workshop."
+lo4_caption <- "**Changes from the pre-wokshop and post-workshop responses.** The numbers show the differences from the pre-workshop counts, from the post-workshop counts. White (0) means there was a net 0 difference between reponses. Blue represents where more responses went to after the workshop and red represents the number of people who migrated from a particular response after the workshop."
 ```
 
 
@@ -210,11 +209,10 @@ the assessment tools focused on learning objectives we will create a summative
 assessment question. We expect to have better learning outcomes in the learners
 when concepts are reinforced with formative assessment questions that guide the
 learner to aspects of the code that are incorrect, rather than simply telling
-them the solution they provided is incorrect (Figure
-@ref(fig:postSummativeAssessment)).
+them the solution they provided is incorrect (Figure \@ref(fig:postSummativeAssessment)).
 
 ```{r, echo=FALSE}
-post_summative_assessment_caption <- "Shows the responses to a summative assessment question at the end of the workshop. The question asked the learners about a learner's comfort in loading a tabulated dataset, tidy it up, and perform a small analysis."
+post_summative_assessment_caption <- "**Summative assessment response at the end of the workshop.** The question asked the learners about a learner's comfort in loading a tabulated dataset, tidy it up, and perform a small analysis."
 ```
 
 

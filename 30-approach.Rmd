@@ -9,7 +9,8 @@ participants, and have a data plan for storage, anonymization, and sharing.
 
 While there is a lot of literature and studies on computer science education,
 very little is known about data literacy education, and even less on data
-science education. Since data science skills inherently involve programming,
+science education.
+Since data science skills inherently involve programming [@songBigDataData2016; @dolgopolovasComputationalThinkingEnhancing2021; @farrellPowerPitfallsPotential2018],
 there are synergies between the educational and pedagogical approach to teaching
 data science, however, little is known about what key concepts are needed to
 engage into the larger data science process and what learning objectives that
@@ -23,7 +24,9 @@ typical type of learner, by creating and validating a set of self-assessment
 surveys. In Aims 2 and 3, we create and assess the effectiveness of the learning
 materials, the workshop that teaches the materials, and the implementation of
 formative and summative assessment questions to see if learning objectives are
-met. As a collective whole, …. TODO
+met. As a collective whole, we will better understand the needs of our
+learners and create a data science curriculum that meets their needs while providing
+a solid data literacy foundation that can be used to continue learning [@farrellPowerPitfallsPotential2018].
 
 The long-term implications of this work is to bridge the skills gap between
 medical practitioners and domain experts in the biomedical sciences with the
@@ -83,19 +86,22 @@ had 51 participants consented to the survey.
 Figure \@ref(fig:surveySelfGroupedDemographics) shows the grouped distribution of responses
 to the occupation demographic question (this is a select-all-that-apply question).
 
-```{r surveySelfGroupedDemographics, echo=FALSE, echo=FALSE, out.width= "50%", out.extra='style="float:left; padding:10px"'}
+```{r, echo=FALSE}
+fig_cap <- "**Grouped demographic counts.** Counts of the occupations from learner self-assessment survey aggregated into one of the 3 groups shown. Each respondant had the option to select more than one occupation that applies to themself."
+```
+
+```{r surveySelfGroupedDemographics, fig.cap=fig_cap, echo=FALSE, echo=FALSE, out.width= "50%", out.extra='style="float:left; padding:10px"'}
 fs::file_copy(here::here("../dissertation-analysis/", "./output", "survey", "01-self_assessment", "grouped_demographics.png"),
               here::here("./figs/"), overwrite = TRUE)
 knitr::include_graphics(here::here("./figs/grouped_demographics.png"))
 ```
 
 In general, we found that the overall group has low programming skills with
-basic data analysis skills primarily using Excel. IN general, they do not
+basic data analysis skills primarily using Excel. They do not
 understand how data pipelines are created, and do not know how data can be
-processed into different "shapes" for analysis. These results are summarized in
-Figures \@ref(fig:surveySelfQ31), \@ref(fig:surveySelfQ41),
-\@ref(fig:surveySelfQ42), \@ref(fig:surveySelfQ44), \@ref(fig:surveySelfQ52), and
-\@ref(fig:surveySelfQ64).
+processed into different "shapes" for analysis. An important framing of the materials
+would be to start with spreadsheet programs and tie their use into more advanced skills
+using programming languages [@farrellPowerPitfallsPotential2018].
 
 The survey also asks a summary Likert scale table of questions (Figure
 \@ref(fig:surveySelfLikert)). These results confirm the overall findings where
@@ -105,8 +111,11 @@ access to the original raw data is important to repeat an analysis.This let us
 conclude that
 **there is a lack of knowledge in the data literacy fundamentals where data can be transformed from user-friendly data curation formats to analysis-friendly formats in multiple pipeline steps.**
 
+```{r, echo=FALSE}
+fig_cap <- "**Summary likert responses.** Each respondanat was asked about their agreement towards each statment. Our population, overall, is unable and indifferent towards programming but finds access to the original raw data to be important to repeat an analysis. Preliminary breakdown of these results show that each of the personas will have a different set of responses to this likert table."
+```
 
-```{r surveySelfLikert, echo=FALSE}
+```{r surveySelfLikert, fig.cap=fig_cap, echo=FALSE}
 fs::file_copy(here::here("../dissertation-analysis/", "./output", "survey", "01-self_assessment", "likert.png"),
               here::here("./figs/"), overwrite = TRUE)
 knitr::include_graphics(here::here("./figs/likert.png"))
@@ -123,7 +132,11 @@ surveys go gain the same amount of information about learners without asking the
 entire battery of questions in our self-assessment survey. were also used to
 simplify he survey down to 3 question, one for each of the knowledge domains.
 
-```{r personaPCACumProp, echo=FALSE, out.width= "50%", out.extra='style="float:left; padding:10px"'}
+```{r, echo=FALSE}
+fig_cap <- "**PCA results.** Cumulative proporation of explained variance using PCA from the learner self-assessment survey. The survey had questions asked in duplicate for internal consistency. The PCA results show that half the questions (8) account for more than 90% of the explained variance and 1 principle component accounts for 46%. These results suggest that the survey is valid."
+```
+
+```{r personaPCACumProp, fig.cap=fig_cap, echo=FALSE, out.width= "50%", out.extra='style="float:left; padding:10px"'}
 fs::file_copy(here::here("../dissertation-analysis/", "./output", "persona", "pca_cum_prop.png"),
               here::here("./figs/"), overwrite = TRUE)
 knitr::include_graphics(here::here("./figs/pca_cum_prop.png"))
@@ -151,7 +164,11 @@ We used hierarchical clustering with Euclidean distance and ward’s method on o
 preliminary data to create the learner personas (Figure
 \@ref(fig:personaHclust4)).
 
-```{r personaHclust4, echo=FALSE, out.width= "50%", out.extra='style="float:left; padding:10px"'}
+```{r, echo=FALSE}
+fig_cap <- "**Hierarchical clustering.** Dendogram from the hierarchical clustering using Eucleadan distance and Ward's method. 4 clusters in these results were combined with the survey responses to create the personas. From left to right, the clusters show experts, clinicians, students, and academics."
+```
+
+```{r personaHclust4, fig.cap=fig_cap, echo=FALSE, out.width= "50%", out.extra='style="float:left; padding:10px"'}
 fs::file_copy(here::here("../dissertation-analysis/", "./output", "persona", "dendogram_4.png"),
               here::here("./figs/"), overwrite = TRUE)
 knitr::include_graphics(here::here("./figs/dendogram_4.png"))
@@ -166,7 +183,11 @@ Our preliminary data gave us 4 personas that map on to the different stages of
 the Dreyfus model of skill acquisition: clinicians (novice), academics
 (intermediate), students (intermediate), and programmers (experts).
 
-```{r surveyHClust4Likert, echo=FALSE}
+```{r, echo=FALSE}
+fig_cap <- "**Summary likert responses of each persona.** Likert responses of each of the 4 personas from the hierarchical clustering. (1) academics; (2) students; (3) experts; (4) clincians."
+```
+
+```{r surveyHClust4Likert, fig.cap=fig_cap, echo=FALSE}
 fs::file_copy(here::here("../dissertation-analysis/", "./output", "persona", "group_descriptives_4", "likert_prop.png"),
               here::here("./figs/persona_4_likert_prop.png"), overwrite = TRUE)
 knitr::include_graphics(here::here("./figs/persona_4_likert_prop.png"))
@@ -235,13 +256,21 @@ post-workshop results, giving us the net change in people after the workshop. A
 blue positive number indicates the shift in the number of participants at the
 end of the workshop, compared to the red negative numbers pre-workshop.
 
-```{r surveyPostLikertDiffSelfAssessment, echo=FALSE}
+```{r, echo=FALSE}
+fig_cap <- "**Summary likert responses pre-post changes.** Changes in the likert table responses from the pre-workshop and post-workshop survey. Results show that learners are more confident in their programming abilities when working with data."
+```
+
+```{r surveyPostLikertDiffSelfAssessment, fig.cap=fig_cap, echo=FALSE}
 fs::file_copy(here::here("../dissertation-analysis/", "./output", "survey", "03-post_workshop", "diff-likert-self_assessment.png"),
               here::here("./figs/diff-likert-self_assessment.png"), overwrite = TRUE)
 knitr::include_graphics(here::here("./figs/diff-likert-self_assessment.png"))
 ```
 
-```{r surveyPostLikertDiffLO, echo=FALSE}
+```{r, echo=FALSE}
+fig_cap <- "**Learning objective pre-post changes.** Changes in the learner's confidence in the workshop's learning objectives from the pre-workshop and post-workshop surveys. Learners are more confident in their abilities from a data literacy perspective."
+```
+
+```{r surveyPostLikertDiffLO, fig.cap=fig_cap, echo=FALSE}
 fs::file_copy(here::here("../dissertation-analysis/", "./output", "survey", "03-post_workshop", "diff-likert-learning_objectives.png"),
               here::here("./figs/diff-likert-learning_objectives.png"), overwrite = TRUE)
 knitr::include_graphics(here::here("./figs/diff-likert-learning_objectives.png"))
@@ -276,14 +305,21 @@ learners.
 The lesson materials created will follow the best educational and pedagogical
 best practices for learning programming. This includes (1) using a
 backwards-design approach to formulate the learning objectives from formative
-assessment questions; (2) blocks of content that fit roughly 50-minute segments
-to allow for breaks and formative assessments. The materials are also created to
+assessment questions [@wilson2019teaching];
+(2) blocks of content that fit roughly 50-minute segments
+to allow for breaks and formative assessments [@farrellPowerPitfallsPotential2018].
+The materials are also created to
 work in the context of classroom "periods"; (3) live-coded workshops where the
-instructor has learners follow along as the concepts are taught and discussed;
-(4) code of conduct for learners to feel safe in the learning environment; (5)
+instructor has learners follow along as the concepts are taught and discussed
+[@farrellPowerPitfallsPotential2018];
+(4) code of conduct for learners to feel safe in the learning environment
+[@ambrose2010learning; @wilson2019teaching]; (5)
 live captioning during the workshop event and descriptive alternative text for
 each figure and image in the online materials to work with screen readers for
 accessibility.
+By creating materials that assume no prior knowledge of programming and use
+relevant examples, students are likely to be more enguaged with learning
+the materials [@farrellPowerPitfallsPotential2018; @ambrose2010learning; @wilson2019teaching].
 
 ##### 2.3 Assess the effectiveness of learning materials. {-}
 

@@ -10,10 +10,52 @@ bibliography: [book.bib, packages.bib, prelims.bib]
 biblio-style: apalike
 link-citations: yes
 github-repo: rstudio/bookdown-demo
-description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+description: "My prelims a la R01"
 ---
 
 # Summary Statement {-}
+
+In 2020,
+89% of all hospitals have implemented an electronic health record system creating
+2,314 exabytes of new medical data
+since the Health Information Technology for Economic and Clinical Health (HITECH) Act's
+Electronic Health Records - Meaningful Use (EHR-MU) clause of 2009 [@@stewartHealthcareDataVolume2020; @DoesHospitalEHR; @rightsocrHITECHActEnforcement2009; @HITECHActSummary; @HealthITLegislation].
+This sheer volume of health data
+necessitates the understanding, accessing, managing, and interpreting of data
+across researchers, clinicians, and patients
+[@instituteofmedicineusroundtableonvaluescience-drivenhealthcareClinicalDataBasic2010].
+While EHR systems have their own data challenges, the influx of
+electronic data has called for changes in how clinicians undergo training to
+meet the challenges of evidenced-based medicine by using these data [@AcceleratingChangeMedical; jenniferbresnickHealthcareBigData2015].
+By
+contextualizing and democratizing data science skills for clinicians, we can
+provide them more capacity to explore and make better use of the data
+[@krossDemocratizationDataScience2020]. Additionally, by empowering those in or
+interested in a biomedical profession with better data literacy and data science
+skills, we can expand the workforce needed to better use and collect the data we
+need to innovate and progress health care. We can accomplish this by learners to
+the programming tools used for data analytics [@farrellPowerPitfallsPotential2018].
+
+This proposal seeks to address the following knowledge gaps in the literature
+and needs in the field of training biomedical professionals: (1) There are no
+formal learner personas for the biomedical community and the assessment tools to
+identify and create learner personas do not exist. (2) Data science learning
+materials for the biomedical sciences lack community oriented, open, and
+maintained lessons targeting learner persona needs grounded in pedagogical
+practices and theory. (3) While we know a lot about the teaching and pedagogy of
+computer science education, less is known about data literacy education, and
+almost nothing is known about data science education in an applied domain (e.g.
+biomedical sciences).
+
+We hypothesize that learning materials with an eye towards tidy data principles is an effective way to teach the data science and data literacy skills that will help learners incorporate programming and data science skills from their spreadsheet workflows.
+We will be using a series of lognitudinal surveys along with a data science curriculum that we will create
+to test this hypothesis.
+This work will
+bridge the skills gap between medical practitioners and domain experts in the biomedical sciences with the analysts, researchers, and data scientists to make better use of data (storage, FAIR, stewardship) in data science teams
+by creating a computational community of practice that can enhance workforce development,
+modernize the data ecosystem, work with data science tools for sustainable and open science.
+
+## Specific Aims {-}
 
 - **_Aim 1: Identify learner personas in the biomedical sciences by creating and validating learner self-assessment surveys._**
   - 1.1: Learner self-assessment survey asking questions about prior programming, statistics, and data knowledge will be used to create learner personas.
