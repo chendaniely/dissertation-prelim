@@ -5,26 +5,26 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 3 Approach | Prelim</title>
-  <meta name="description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  <meta name="description" content="My prelims a la R01" />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 3 Approach | Prelim" />
   <meta property="og:type" content="book" />
   
   
-  <meta property="og:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  <meta property="og:description" content="My prelims a la R01" />
   <meta name="github-repo" content="rstudio/bookdown-demo" />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Chapter 3 Approach | Prelim" />
   
-  <meta name="twitter:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  <meta name="twitter:description" content="My prelims a la R01" />
   
 
 <meta name="author" content="Daniel Chen" />
 
 
-<meta name="date" content="2021-02-08" />
+<meta name="date" content="2021-02-10" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -79,7 +79,10 @@
 <li><a href="./">Prelim a la R01</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Summary Statement</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Summary Statement</a>
+<ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#specific-aims"><i class="fa fa-check"></i>Specific Aims</a></li>
+</ul></li>
 <li class="chapter" data-level="1" data-path="significance.html"><a href="significance.html"><i class="fa fa-check"></i><b>1</b> Significance</a></li>
 <li class="chapter" data-level="2" data-path="innovation.html"><a href="innovation.html"><i class="fa fa-check"></i><b>2</b> Innovation</a></li>
 <li class="chapter" data-level="3" data-path="approach.html"><a href="approach.html"><i class="fa fa-check"></i><b>3</b> Approach</a>
@@ -128,7 +131,8 @@ participants, and have a data plan for storage, anonymization, and sharing.</p>
 <h2><span class="header-section-number">3.2</span> Introduction</h2>
 <p>While there is a lot of literature and studies on computer science education,
 very little is known about data literacy education, and even less on data
-science education. Since data science skills inherently involve programming,
+science education.
+Since data science skills inherently involve programming <span class="citation">(Song and Zhu <a href="#ref-songBigDataData2016" role="doc-biblioref">2016</a>; Dolgopolovas and Dagienė <a href="#ref-dolgopolovasComputationalThinkingEnhancing2021" role="doc-biblioref">2021</a>; Farrell and Carey <a href="#ref-farrellPowerPitfallsPotential2018" role="doc-biblioref">2018</a>)</span>,
 there are synergies between the educational and pedagogical approach to teaching
 data science, however, little is known about what key concepts are needed to
 engage into the larger data science process and what learning objectives that
@@ -141,7 +145,9 @@ typical type of learner, by creating and validating a set of self-assessment
 surveys. In Aims 2 and 3, we create and assess the effectiveness of the learning
 materials, the workshop that teaches the materials, and the implementation of
 formative and summative assessment questions to see if learning objectives are
-met. As a collective whole, …. TODO</p>
+met. As a collective whole, we will better understand the needs of our
+learners and create a data science curriculum that meets their needs while providing
+a solid data literacy foundation that can be used to continue learning <span class="citation">(Farrell and Carey <a href="#ref-farrellPowerPitfallsPotential2018" role="doc-biblioref">2018</a>)</span>.</p>
 <p>The long-term implications of this work is to bridge the skills gap between
 medical practitioners and domain experts in the biomedical sciences with the
 analysts, researchers, and data scientists to make better use of data (storage,
@@ -196,24 +202,33 @@ survey instrument and the results.</p>
 <p>We will send out self-assessment surveys to various medical and biomedical groups around the Virginia Tech campus.
 We collected preliminary data over the summer of 2020 and
 had 51 participants consented to the survey.
-Figure <a href="#fig:surveySelfGroupedDemographics"><strong>??</strong></a> shows the grouped distribution of responses
+Figure <a href="approach.html#fig:surveySelfGroupedDemographics">3.1</a> shows the grouped distribution of responses
 to the occupation demographic question (this is a select-all-that-apply question).</p>
-<p><img src="figs/grouped_demographics.png" width="50%" style="float:left; padding:10px" /></p>
+<div class="figure"><span id="fig:surveySelfGroupedDemographics"></span>
+<img src="figs/grouped_demographics.png" alt="**Grouped demographic counts.** Counts of the occupations from learner self-assessment survey aggregated into one of the 3 groups shown. Each respondant had the option to select more than one occupation that applies to themself." width="50%" style="float:left; padding:10px" />
+<p class="caption">
+Figure 3.1: <strong>Grouped demographic counts.</strong> Counts of the occupations from learner self-assessment survey aggregated into one of the 3 groups shown. Each respondant had the option to select more than one occupation that applies to themself.
+</p>
+</div>
 <p>In general, we found that the overall group has low programming skills with
-basic data analysis skills primarily using Excel. IN general, they do not
+basic data analysis skills primarily using Excel. They do not
 understand how data pipelines are created, and do not know how data can be
-processed into different “shapes” for analysis. These results are summarized in
-Figures <a href="#fig:surveySelfQ31"><strong>??</strong></a>, <a href="#fig:surveySelfQ41"><strong>??</strong></a>,
-<a href="#fig:surveySelfQ42"><strong>??</strong></a>, <a href="#fig:surveySelfQ44"><strong>??</strong></a>, <a href="#fig:surveySelfQ52"><strong>??</strong></a>, and
-<a href="#fig:surveySelfQ64"><strong>??</strong></a>.</p>
+processed into different “shapes” for analysis. An important framing of the materials
+would be to start with spreadsheet programs and tie their use into more advanced skills
+using programming languages <span class="citation">(Farrell and Carey <a href="#ref-farrellPowerPitfallsPotential2018" role="doc-biblioref">2018</a>)</span>.</p>
 <p>The survey also asks a summary Likert scale table of questions (Figure
-<a href="#fig:surveySelfLikert"><strong>??</strong></a>). These results confirm the overall findings where
+<a href="approach.html#fig:surveySelfLikert">3.2</a>). These results confirm the overall findings where
 respondents typically do not use a programming language in their work and are
 indifferent towards programming in doing analysis. They did report that having
 access to the original raw data is important to repeat an analysis.This let us
 conclude that
 <strong>there is a lack of knowledge in the data literacy fundamentals where data can be transformed from user-friendly data curation formats to analysis-friendly formats in multiple pipeline steps.</strong></p>
-<p><img src="figs/likert.png" width="1200" /></p>
+<div class="figure"><span id="fig:surveySelfLikert"></span>
+<img src="figs/likert.png" alt="**Summary likert responses.** Each respondanat was asked about their agreement towards each statment. Our population, overall, is unable and indifferent towards programming but finds access to the original raw data to be important to repeat an analysis. Preliminary breakdown of these results show that each of the personas will have a different set of responses to this likert table." width="1200" />
+<p class="caption">
+Figure 3.2: <strong>Summary likert responses.</strong> Each respondanat was asked about their agreement towards each statment. Our population, overall, is unable and indifferent towards programming but finds access to the original raw data to be important to repeat an analysis. Preliminary breakdown of these results show that each of the personas will have a different set of responses to this likert table.
+</p>
+</div>
 </div>
 <div id="validate-learner-self-assessment-survey." class="section level5 unnumbered" number="">
 <h5>1.2: Validate learner self-assessment survey.</h5>
@@ -225,8 +240,13 @@ to a representative set of questions. These questions can be used in future
 surveys go gain the same amount of information about learners without asking the
 entire battery of questions in our self-assessment survey. were also used to
 simplify he survey down to 3 question, one for each of the knowledge domains.</p>
-<p><img src="figs/pca_cum_prop.png" width="50%" style="float:left; padding:10px" /></p>
-<p>Figure <a href="#fig:personaPCACumProp"><strong>??</strong></a> shows how half of the questions (8 out of 16)
+<div class="figure"><span id="fig:personaPCACumProp"></span>
+<img src="figs/pca_cum_prop.png" alt="**PCA results.** Cumulative proporation of explained variance using PCA from the learner self-assessment survey. The survey had questions asked in duplicate for internal consistency. The PCA results show that half the questions (8) account for more than 90% of the explained variance and 1 principle component accounts for 46%. These results suggest that the survey is valid." width="50%" style="float:left; padding:10px" />
+<p class="caption">
+Figure 3.3: <strong>PCA results.</strong> Cumulative proporation of explained variance using PCA from the learner self-assessment survey. The survey had questions asked in duplicate for internal consistency. The PCA results show that half the questions (8) account for more than 90% of the explained variance and 1 principle component accounts for 46%. These results suggest that the survey is valid.
+</p>
+</div>
+<p>Figure <a href="approach.html#fig:personaPCACumProp">3.3</a> shows how half of the questions (8 out of 16)
 account for more than 90% of the variance in PCA, with the first component
 accounting for 46% and 3 components accounting for 68%. Since our survey was
 designed using 3 main constructs: programming, statistics, and data knowledge,
@@ -245,8 +265,13 @@ will improve the external validity of the survey.</p>
 <h5>1.3: Personas will encompass a student’s prior knowledge using survey data. General background, perception of needs, and special considerations will be added to make each learner persona a complete character.</h5>
 <p>We used hierarchical clustering with Euclidean distance and ward’s method on our
 preliminary data to create the learner personas (Figure
-<a href="#fig:personaHclust4"><strong>??</strong></a>).</p>
-<p><img src="figs/dendogram_4.png" width="50%" style="float:left; padding:10px" /></p>
+<a href="approach.html#fig:personaHclust4">3.4</a>).</p>
+<div class="figure"><span id="fig:personaHclust4"></span>
+<img src="figs/dendogram_4.png" alt="**Hierarchical clustering.** Dendogram from the hierarchical clustering using Eucleadan distance and Ward's method. 4 clusters in these results were combined with the survey responses to create the personas. From left to right, the clusters show experts, clinicians, students, and academics." width="50%" style="float:left; padding:10px" />
+<p class="caption">
+Figure 3.4: <strong>Hierarchical clustering.</strong> Dendogram from the hierarchical clustering using Eucleadan distance and Ward’s method. 4 clusters in these results were combined with the survey responses to create the personas. From left to right, the clusters show experts, clinicians, students, and academics.
+</p>
+</div>
 <p>This approach is validated from preliminary results showing the 4 learner
 personas from our data. We combined these groupings back with the survey
 occupation demographics to create the relevant prior knowledge portion of
@@ -254,7 +279,12 @@ learner personas.</p>
 <p>Our preliminary data gave us 4 personas that map on to the different stages of
 the Dreyfus model of skill acquisition: clinicians (novice), academics
 (intermediate), students (intermediate), and programmers (experts).</p>
-<p><img src="figs/persona_4_likert_prop.png" width="1950" /></p>
+<div class="figure"><span id="fig:surveyHClust4Likert"></span>
+<img src="figs/persona_4_likert_prop.png" alt="**Summary likert responses of each persona.** Likert responses of each of the 4 personas from the hierarchical clustering. (1) academics; (2) students; (3) experts; (4) clincians." width="1950" />
+<p class="caption">
+Figure 3.5: <strong>Summary likert responses of each persona.</strong> Likert responses of each of the 4 personas from the hierarchical clustering. (1) academics; (2) students; (3) experts; (4) clincians.
+</p>
+</div>
 </div>
 </div>
 <div id="anticipated-results-and-their-impact." class="section level4 unnumbered" number="">
@@ -273,7 +303,7 @@ materials for their needs.</p>
 <p>The major route of data collection in this Aim is based on survey responses.
 This inherently means we will have reporting and response bias. The demographic
 breakdown in our learner self-assessment was fairly diverse (Figure
-<a href="#fig:surveySelfGroupedDemographics"><strong>??</strong></a>), but our preliminary data was only
+<a href="approach.html#fig:surveySelfGroupedDemographics">3.1</a>), but our preliminary data was only
 collected from Virginia Tech students and faculty from biomedically relevant
 listservs. Future directions would include increasing the survey pool to get a
 better representation of potential learners. A larger survey pool would also
@@ -312,14 +342,24 @@ surveys to measure differences in response longitudinally.</p>
 teach a set of workshops. Preliminary data collected before and after the
 workshop compare a learner’s confidence of meeting learning objectives, and show
 that the learners are more confident in their skills and learning objectives
-(Figure <a href="#fig:surveyPostLikertDiffSelfAssessment"><strong>??</strong></a> and
-<a href="#fig:surveyPostLikertDiffLO"><strong>??</strong></a>). In both figures, the number of responses from
+(Figure <a href="approach.html#fig:surveyPostLikertDiffSelfAssessment">3.6</a> and
+<a href="approach.html#fig:surveyPostLikertDiffLO">3.7</a>). In both figures, the number of responses from
 the pre-workshop results was subtracted from the number of results in the
 post-workshop results, giving us the net change in people after the workshop. A
 blue positive number indicates the shift in the number of participants at the
 end of the workshop, compared to the red negative numbers pre-workshop.</p>
-<p><img src="figs/diff-likert-self_assessment.png" width="1200" /></p>
-<p><img src="figs/diff-likert-learning_objectives.png" width="1200" /></p>
+<div class="figure"><span id="fig:surveyPostLikertDiffSelfAssessment"></span>
+<img src="figs/diff-likert-self_assessment.png" alt="**Summary likert responses pre-post changes.** Changes in the likert table responses from the pre-workshop and post-workshop survey. Results show that learners are more confident in their programming abilities when working with data." width="1200" />
+<p class="caption">
+Figure 3.6: <strong>Summary likert responses pre-post changes.</strong> Changes in the likert table responses from the pre-workshop and post-workshop survey. Results show that learners are more confident in their programming abilities when working with data.
+</p>
+</div>
+<div class="figure"><span id="fig:surveyPostLikertDiffLO"></span>
+<img src="figs/diff-likert-learning_objectives.png" alt="**Learning objective pre-post changes.** Changes in the learner's confidence in the workshop's learning objectives from the pre-workshop and post-workshop surveys. Learners are more confident in their abilities from a data literacy perspective." width="1200" />
+<p class="caption">
+Figure 3.7: <strong>Learning objective pre-post changes.</strong> Changes in the learner’s confidence in the workshop’s learning objectives from the pre-workshop and post-workshop surveys. Learners are more confident in their abilities from a data literacy perspective.
+</p>
+</div>
 <p>These results came from 3 workshops, totaling of 72 registrants (Oct: 27, Feb: 45).
 From this we were able to teach 39 workshop attendees (Oct: 20, 11; Feb: 19, 16)
 and collected 25 pre-workshop responses, and 12 post workshop responses.
@@ -347,14 +387,21 @@ learners.</p>
 <p>The lesson materials created will follow the best educational and pedagogical
 best practices for learning programming. This includes (1) using a
 backwards-design approach to formulate the learning objectives from formative
-assessment questions; (2) blocks of content that fit roughly 50-minute segments
-to allow for breaks and formative assessments. The materials are also created to
+assessment questions <span class="citation">(Wilson <a href="#ref-wilson2019teaching" role="doc-biblioref">2019</a>)</span>;
+(2) blocks of content that fit roughly 50-minute segments
+to allow for breaks and formative assessments <span class="citation">(Farrell and Carey <a href="#ref-farrellPowerPitfallsPotential2018" role="doc-biblioref">2018</a>)</span>.
+The materials are also created to
 work in the context of classroom “periods”; (3) live-coded workshops where the
-instructor has learners follow along as the concepts are taught and discussed;
-(4) code of conduct for learners to feel safe in the learning environment; (5)
+instructor has learners follow along as the concepts are taught and discussed
+<span class="citation">(Farrell and Carey <a href="#ref-farrellPowerPitfallsPotential2018" role="doc-biblioref">2018</a>)</span>;
+(4) code of conduct for learners to feel safe in the learning environment
+<span class="citation">(Ambrose et al. <a href="#ref-ambrose2010learning" role="doc-biblioref">2010</a>; Wilson <a href="#ref-wilson2019teaching" role="doc-biblioref">2019</a>)</span>; (5)
 live captioning during the workshop event and descriptive alternative text for
 each figure and image in the online materials to work with screen readers for
-accessibility.</p>
+accessibility.
+By creating materials that assume no prior knowledge of programming and use
+relevant examples, students are likely to be more enguaged with learning
+the materials <span class="citation">(Farrell and Carey <a href="#ref-farrellPowerPitfallsPotential2018" role="doc-biblioref">2018</a>; Ambrose et al. <a href="#ref-ambrose2010learning" role="doc-biblioref">2010</a>; Wilson <a href="#ref-wilson2019teaching" role="doc-biblioref">2019</a>)</span>.</p>
 </div>
 <div id="assess-the-effectiveness-of-learning-materials." class="section level5 unnumbered" number="">
 <h5>2.3 Assess the effectiveness of learning materials.</h5>
@@ -492,6 +539,15 @@ curate a better learning curriculum for our learners.</p>
 <div id="refs" class="references">
 <div id="ref-ambrose2010learning">
 <p>Ambrose, Susan A, Michael W Bridges, Michele DiPietro, Marsha C Lovett, and Marie K Norman. 2010. <em>How Learning Works: Seven Research-Based Principles for Smart Teaching</em>. John Wiley &amp; Sons.</p>
+</div>
+<div id="ref-dolgopolovasComputationalThinkingEnhancing2021">
+<p>Dolgopolovas, Vladimiras, and Valentina Dagienė. 2021. “Computational Thinking: Enhancing STEAM and Engineering Education, from Theory to Practice.” <em>Computer Applications in Engineering Education</em> 29 (1): 5–11. <a href="https://doi.org/10.1002/cae.22382">https://doi.org/10.1002/cae.22382</a>.</p>
+</div>
+<div id="ref-farrellPowerPitfallsPotential2018">
+<p>Farrell, Kaitlin J., and Cayelan C. Carey. 2018. “Power, Pitfalls, and Potential for Integrating Computational Literacy into Undergraduate Ecology Courses.” <em>Ecology and Evolution</em> 8 (16): 7744–51. <a href="https://doi.org/10.1002/ece3.4363">https://doi.org/10.1002/ece3.4363</a>.</p>
+</div>
+<div id="ref-songBigDataData2016">
+<p>Song, Il-Yeol, and Yongjun Zhu. 2016. “Big Data and Data Science: What Should We Teach?” <em>Expert Systems</em> 33 (4): 364–73. <a href="https://doi.org/10.1111/exsy.12130">https://doi.org/10.1111/exsy.12130</a>.</p>
 </div>
 <div id="ref-wilson2019teaching">
 <p>Wilson, Greg. 2019. <em>Teaching Tech Together: How to Make Your Lessons Work and Build a Teaching Community Around Them</em>. CRC Press.</p>

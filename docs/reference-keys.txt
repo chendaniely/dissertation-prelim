@@ -3,6 +3,13 @@ fig:dsFigure
 fig:dendogram4
 fig:lo4
 fig:postSummativeAssessment
+fig:surveySelfGroupedDemographics
+fig:surveySelfLikert
+fig:personaPCACumProp
+fig:personaHclust4
+fig:surveyHClust4Likert
+fig:surveyPostLikertDiffSelfAssessment
+fig:surveyPostLikertDiffLO
 significance
 innovation
 approach
