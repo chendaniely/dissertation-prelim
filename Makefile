@@ -1,6 +1,6 @@
 word:
-	rm doc.md
-	rm doc.Rmd
+	rm -f doc.md
+	rm -f doc.Rmd
 	bash word_export/combine_and_render.sh
 
 book:
