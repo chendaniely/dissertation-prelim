@@ -1,15 +1,13 @@
 fig:r4dsDs
 fig:dsFigure
 fig:dendogram4
-fig:lo4
 fig:postSummativeAssessment
 fig:surveySelfGroupedDemographics
 fig:surveySelfLikert
 fig:personaPCACumProp
-fig:personaHclust4
-fig:surveyHClust4Likert
 fig:surveyPostLikertDiffSelfAssessment
 fig:surveyPostLikertDiffLO
+summary-statement
 significance
 innovation
 approach
@@ -18,4 +16,3 @@ introduction
 hypothesis
 experimental-design
 timeline
-appendix
