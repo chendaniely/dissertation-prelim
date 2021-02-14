@@ -231,7 +231,7 @@ surveys to measure differences in response longitudinally.
 
 #### Preliminary Data for Aim 2. {-}
 
-. A data science curriculum based on learner personas was created and used to
+A data science curriculum based on learner personas was created and used to
 teach a set of workshops. Preliminary data collected before and after the
 workshop compare a learner’s confidence of meeting learning objectives and show
 that the learners are more confident in their skills and learning objectives
@@ -262,9 +262,9 @@ fig_cap <- "**Changes from the pre-wokshop and post-workshop responses.** The nu
 ```
 
 ```{r surveyPostLikertDiffSelfAssessment, fig.cap=fig_cap, echo=FALSE}
-fs::file_copy(here::here("../dissertation-analysis/", "./output", "survey", "03-post_workshop", "diff-Likert-self_assessment.png"),
-              here::here("./figs/diff-Likert-self_assessment.png"), overwrite = TRUE)
-knitr::include_graphics(here::here("./figs/diff-Likert-self_assessment.png"))
+fs::file_copy(here::here("../dissertation-analysis/", "./output", "survey", "03-post_workshop", "diff-likert-self_assessment.png"),
+              here::here("./figs/diff-likert-self_assessment.png"), overwrite = TRUE)
+knitr::include_graphics(here::here("./figs/diff-likert-self_assessment.png"))
 ```
 
 ```{r, echo=FALSE}
@@ -272,9 +272,9 @@ fig_cap <- "**Learning objective pre-post changes.** Changes in the learner's co
 ```
 
 ```{r surveyPostLikertDiffLO, fig.cap=fig_cap, echo=FALSE}
-fs::file_copy(here::here("../dissertation-analysis/", "./output", "survey", "03-post_workshop", "diff-Likert-learning_objectives.png"),
-              here::here("./figs/diff-Likert-learning_objectives.png"), overwrite = TRUE)
-knitr::include_graphics(here::here("./figs/diff-Likert-learning_objectives.png"))
+fs::file_copy(here::here("../dissertation-analysis/", "./output", "survey", "03-post_workshop", "diff-likert-learning_objectives.png"),
+              here::here("./figs/diff-likert-learning_objectives.png"), overwrite = TRUE)
+knitr::include_graphics(here::here("./figs/diff-likert-learning_objectives.png"))
 ```
 
 In both figures, the number of responses from the pre-workshop results was
