@@ -2,15 +2,15 @@
 
 ## Human Subject Research
 
-We have an IRB (#20-537) that outlines the minimal risk from the survey
+We have an approved IRB (#20-537) that outlines the minimal risk from the survey
 participants, and have a data plan for storage, anonymization, and sharing.
 
 ## Introduction
 
 While there is a lot of literature and studies on computer science education,
 very little is known about data literacy education, and even less on data
-science education.
-Since data science skills inherently involve programming [@songBigDataData2016; @dolgopolovasComputationalThinkingEnhancing2021; @farrellPowerPitfallsPotential2018],
+science education. Since data science skills inherently involve programming
+[@songBigDataData2016; @dolgopolovasComputationalThinkingEnhancing2021; @farrellPowerPitfallsPotential2018],
 there are synergies between the educational and pedagogical approach to teaching
 data science, however, little is known about what key concepts are needed to
 engage into the larger data science process and what learning objectives that
@@ -24,28 +24,32 @@ typical type of learner, by creating and validating a set of self-assessment
 surveys. In Aims 2 and 3, we create and assess the effectiveness of the learning
 materials, the workshop that teaches the materials, and the implementation of
 formative and summative assessment questions to see if learning objectives are
-met. As a collective whole, we will better understand the needs of our
-learners and create a data science curriculum that meets their needs while providing
-a solid data literacy foundation that can be used to continue learning [@farrellPowerPitfallsPotential2018].
+met. As a collective whole, we will better understand the needs of our learners
+and create a data science curriculum that meets their needs while providing a
+solid data literacy foundation that can be used to continue learning [@farrellPowerPitfallsPotential2018].
 
-The long-term implications of this work is to bridge the skills gap between
+The long-term implications of this work are to bridge the skills gap between
 medical practitioners and domain experts in the biomedical sciences with the
 analysts, researchers, and data scientists to make better use of data (storage,
 FAIR, stewardship) in data science teams by creating and bolstering a
 computational community of practice that can enhance workforce development,
 modernize the data ecosystem, work with data science tools for sustainable and
-open science.
+open science.  
 
 ## Hypothesis
-**Our central hypothesis is that learning materials with an eye towards the learner and tidy data principles is an effective way to teach the data science and data literacy skills that will help learners incorporate programming and data science skills from their spreadsheet workflows.**
-Data science tools are built around inputs that are defined by tidy data
-principles. Spreadsheet programs make it easy to treat data sets as a
-visualization, which makes the data less flexible for multiple uses. It is
-possible programming may not be incorporated by learners, but these materials
-may help curate better datasets that can be used in data science teams. To
-address these critical gaps in knowledge, we will create a set of surveys that
-will inform us of the potential learners and assess the effectiveness of the
-learning materials. Lesson efficacy will be tested against learning objectives.
+
+Our central hypothesis is that learning materials with an eye towards the
+learner and tidy data principles is an effective way to teach the data science
+and data literacy skills that will help learners incorporate programming and
+data science skills from their spreadsheet workflows. Data science tools are
+built around inputs that are defined by tidy data principles. Spreadsheet
+programs make it easy to treat data sets as a visualization, which makes the
+data less flexible for multiple uses. It is possible programming may not be
+incorporated by learners, but these materials may help curate better datasets
+that can be used in data science teams. To address these critical gaps in
+knowledge, we will create a set of surveys that will inform us of the potential
+learners and assess the effectiveness of the learning materials. Lesson efficacy
+will be tested against learning objectives.
 
 ## Experimental Design
 
@@ -58,10 +62,10 @@ data, statistics, and programming skills.
 
 #### Working Hypothesis {-}
 
-We hypothesize that learners will fall across the 3 main groups of the Dreyfus
+We _hypothesize_ that learners will fall across the 3 main groups of the Dreyfus
 model of skill acquisition: novice, intermediate, and expert. These groups will
 be distinguishable based on their own comfort in 3 domains of data science
-(data, programming, and statistics knowledge), To test this we will create a
+(data, programming, and statistics knowledge). To test this, we will create a
 learner self-assessment survey. The survey will cover data, programming, and
 statistics knowledge and will have at least 2 questions asking about the same
 underlying concept for internal consistency. Results from the survey along with
@@ -80,14 +84,16 @@ survey instrument and the results.
 
 ##### 1.1: Learner self-assessment survey asking questions about prior programming, statistics, and data knowledge will be used to create learner personas. {-}
 
-We will send out self-assessment surveys to various medical and biomedical groups around the Virginia Tech campus.
-We collected preliminary data over the summer of 2020 and
-had 51 participants consented to the survey.
-Figure \@ref(fig:surveySelfGroupedDemographics) shows the grouped distribution of responses
-to the occupation demographic question (this is a select-all-that-apply question).
+We will send out self-assessment surveys to various medical and biomedical
+groups around the Virginia Tech campus. We collected preliminary data over the
+summer of 2020 and had 51 participants consented to the survey.
+Figure \@ref(fig:surveySelfGroupedDemographics)
+shows
+the grouped distribution of responses to the occupation demographic question
+(this is a select-all-that-apply question).
 
 ```{r, echo=FALSE}
-fig_cap <- "**Grouped demographic counts.** Counts of the occupations from learner self-assessment survey aggregated into one of the 3 groups shown. Each respondant had the option to select more than one occupation that applies to themself."
+fig_cap <- "**Grouped demographic counts.** Occupation counts from learner self-assessment survey aggregated into one of the 3 groups shown. Each respondant had the option to select more than one occupation that applies to themself."
 ```
 
 ```{r surveySelfGroupedDemographics, fig.cap=fig_cap, echo=FALSE, echo=FALSE, out.width= "50%", out.extra='style="float:left; padding:10px"'}
@@ -97,43 +103,46 @@ knitr::include_graphics(here::here("./figs/grouped_demographics.png"))
 ```
 
 In general, we found that the overall group has low programming skills with
-basic data analysis skills primarily using Excel. They do not
-understand how data pipelines are created, and do not know how data can be
-processed into different "shapes" for analysis. An important framing of the materials
-would be to start with spreadsheet programs and tie their use into more advanced skills
-using programming languages [@farrellPowerPitfallsPotential2018].
+basic data analysis skills primarily using Excel. They do not understand how
+data pipelines are created, and do not know how data can be processed into
+different “shapes” for analysis. An important framing of the materials would be
+to start with spreadsheet programs and tie their use into more advanced skills
+using programming languages
+[@farrellPowerPitfallsPotential2018].
 
-The survey also asks a summary Likert scale table of questions (Figure
-\@ref(fig:surveySelfLikert)). These results confirm the overall findings where
-respondents typically do not use a programming language in their work and are
-indifferent towards programming in doing analysis. They did report that having
-access to the original raw data is important to repeat an analysis.This let us
-conclude that
-**there is a lack of knowledge in the data literacy fundamentals where data can be transformed from user-friendly data curation formats to analysis-friendly formats in multiple pipeline steps.**
+The survey also asks a summary Likert scale table of questions
+(Figure \@ref(fig:surveySelfLikert)).
+These results confirm the overall findings where respondents typically do not
+use a programming language in their work and are indifferent towards programming
+in doing analysis. They did report that having access to the original raw data
+is important to repeat an analysis. This let us conclude that
+**there is a lack of knowledge in the data literacy fundamentals where data can be
+transformed from user-friendly data curation formats to analysis-friendly
+formats in multiple pipeline steps.**
 
 ```{r, echo=FALSE}
-fig_cap <- "**Summary likert responses.** Each respondanat was asked about their agreement towards each statment. Our population, overall, is unable and indifferent towards programming but finds access to the original raw data to be important to repeat an analysis. Preliminary breakdown of these results show that each of the personas will have a different set of responses to this likert table."
+fig_cap <- "**Summary Likert responses.** Each respondanat was asked about their agreement towards each statment. Our population, overall, is unable and indifferent towards programming but finds access to the original raw data to be important to repeat an analysis. Preliminary breakdown of these results show that each of the personas will have a different set of responses to this Likert table."
 ```
 
 ```{r surveySelfLikert, fig.cap=fig_cap, echo=FALSE}
-fs::file_copy(here::here("../dissertation-analysis/", "./output", "survey", "01-self_assessment", "likert.png"),
+fs::file_copy(here::here("../dissertation-analysis/", "./output", "survey", "01-self_assessment", "Likert.png"),
               here::here("./figs/"), overwrite = TRUE)
-knitr::include_graphics(here::here("./figs/likert.png"))
+knitr::include_graphics(here::here("./figs/Likert.png"))
 ```
 
 ##### 1.2: Validate learner self-assessment survey. {-}
 
 The survey was designed with the questions in duplicate for internal validity,
 i.e., each construct was asked in 2 separate questions. These questions can be
-validated using Principle Component Analysis (PCA) and Exploratory Factor
+validated using Principal Component Analysis (PCA) and Exploratory Factor
 Analysis (EFA) results. The EFA results can also be used to simplify the survey
 to a representative set of questions. These questions can be used in future
-surveys go gain the same amount of information about learners without asking the
-entire battery of questions in our self-assessment survey. were also used to
+surveys to gain the same amount of information about learners without asking the
+entire battery of questions in our self-assessment survey. EFA was also used to
 simplify he survey down to 3 question, one for each of the knowledge domains.
 
 ```{r, echo=FALSE}
-fig_cap <- "**PCA results.** Cumulative proporation of explained variance using PCA from the learner self-assessment survey. The survey had questions asked in duplicate for internal consistency. The PCA results show that half the questions (8) account for more than 90% of the explained variance and 1 principle component accounts for 46%. These results suggest that the survey is valid."
+fig_cap <- "**PCA results.** Cumulative proporation of explained variance using PCA from the learner self-assessment survey. The PCA results show that half the questions (8) account for more than 90% of the explained variance and 1 principle component accounts for 46%."
 ```
 
 ```{r personaPCACumProp, fig.cap=fig_cap, echo=FALSE, out.width= "50%", out.extra='style="float:left; padding:10px"'}
@@ -142,82 +151,59 @@ fs::file_copy(here::here("../dissertation-analysis/", "./output", "persona", "pc
 knitr::include_graphics(here::here("./figs/pca_cum_prop.png"))
 ```
 
-Figure \@ref(fig:personaPCACumProp) shows how half of the questions (8 out of 16)
-account for more than 90% of the variance in PCA, with the first component
-accounting for 46% and 3 components accounting for 68%. Since our survey was
-designed using 3 main constructs: programming, statistics, and data knowledge,
-these results show that the survey was well designed and has internal
-consistency among the respondents.
-
-We also conducted an exploratory factor analysis on our preliminary data, and
-used 3 factors, one for each latent variable. The question loadings also
-followed the constructs in the survey, suggesting the validity of the survey. We
-would need to expand the survey to more participants to show its external
-validity. Given the preliminary data, we propose to perform more validation
-checks by increasing the sample size. We will be able to calculate the Cohen’s
-kappa coefficient to measure inter-rater reliability and the larger sample size
-will improve the external validity of the survey.
+Figure \@ref(fig:personaPCACumProp)
+shows how half of the questions (8 out of 16) account for more than 90% of the
+variance in PCA, with the first component accounting for 46% and 3 components
+accounting for 68%. Since our survey was designed using 3 main constructs:
+programming, statistics, and data knowledge, these results show that the survey
+was well designed and has internal consistency among the respondents. We also
+conducted an exploratory factor analysis on our preliminary data, and used 3
+factors, one for each latent variable. The question loadings also followed the
+constructs in the survey, suggesting the validity of the survey. We would need
+to expand the survey to more participants to show its external validity. Given
+the preliminary data, we propose to perform more validation checks by increasing
+the sample size. We will be able to calculate the Cohen’s kappa coefficient to
+measure inter-rater reliability and the larger sample size will improve the
+external validity of the survey.
 
 ##### 1.3: Personas will encompass a student’s prior knowledge using survey data. General background, perception of needs, and special considerations will be added to make each learner persona a complete character. {-}
 
-We used hierarchical clustering with Euclidean distance and ward’s method on our
-preliminary data to create the learner personas (Figure
-\@ref(fig:personaHclust4)).
-
-```{r, echo=FALSE}
-fig_cap <- "**Hierarchical clustering.** Dendogram from the hierarchical clustering using Eucleadan distance and Ward's method. 4 clusters in these results were combined with the survey responses to create the personas. From left to right, the clusters show experts, clinicians, students, and academics."
-```
-
-```{r personaHclust4, fig.cap=fig_cap, echo=FALSE, out.width= "50%", out.extra='style="float:left; padding:10px"'}
-fs::file_copy(here::here("../dissertation-analysis/", "./output", "persona", "dendogram_4.png"),
-              here::here("./figs/"), overwrite = TRUE)
-knitr::include_graphics(here::here("./figs/dendogram_4.png"))
-```
+We used hierarchical clustering with Euclidean distance and Ward’s method on our
+preliminary data to create the learner personas
+(Figure \@ref(fig:dendogram4)).
 
 This approach is validated from preliminary results showing the 4 learner
 personas from our data. We combined these groupings back with the survey
 occupation demographics to create the relevant prior knowledge portion of
-learner personas.
-
-Our preliminary data gave us 4 personas that map on to the different stages of
-the Dreyfus model of skill acquisition: clinicians (novice), academics
-(intermediate), students (intermediate), and programmers (experts).
-
-```{r, echo=FALSE}
-fig_cap <- "**Summary likert responses of each persona.** Likert responses of each of the 4 personas from the hierarchical clustering. (1) academics; (2) students; (3) experts; (4) clincians."
-```
-
-```{r surveyHClust4Likert, fig.cap=fig_cap, echo=FALSE}
-fs::file_copy(here::here("../dissertation-analysis/", "./output", "persona", "group_descriptives_4", "likert_prop.png"),
-              here::here("./figs/persona_4_likert_prop.png"), overwrite = TRUE)
-knitr::include_graphics(here::here("./figs/persona_4_likert_prop.png"))
-```
+learner personas. Our preliminary data returns 4 personas that map on to the
+different stages of the Dreyfus model of skill acquisition: clinicians (novice),
+academics (intermediate), students (intermediate), and programmers (experts).
 
 #### Anticipated results and their impact. {-}
 
-Preliminary results indicate that we are able to validate the learner
-self-assessment survey and use the survey results to create learner personas.
-This gives us an overview of the audience we would potentially teach in the
-medical and biomedical sciences. Since the final step of persona creation
-combines the demographic information, the base survey questions can be used
-across other domains, not just the one we are studying. This potentially gives
-us a tool to accurately gauge data science learners to better create learning
-materials for their needs.
+Preliminary results indicate that we can validate the learner self-assessment
+survey and use the survey results to create learner personas. This gives us an
+overview of the audience we would potentially teach in the medical and
+biomedical sciences. Since the final step of persona creation combines the
+demographic information, the base survey questions can be used across other
+domains, not just the one we are studying. This potentially gives us a tool to
+accurately gauge data science learners to better create learning materials for
+their needs.
 
 #### Potential pitfalls, alternative approaches, and future directions. {-}
 
 The major route of data collection in this Aim is based on survey responses.
 This inherently means we will have reporting and response bias. The demographic
-breakdown in our learner self-assessment was fairly diverse (Figure
-\@ref(fig:surveySelfGroupedDemographics)), but our preliminary data was only
-collected from Virginia Tech students and faculty from biomedically relevant
-listservs. Future directions would include increasing the survey pool to get a
-better representation of potential learners. A larger survey pool would also
-help with the survey validation by potentially surveying a more diverse
-population and increase our N for the analysis. Our initial survey had 57
-respondents, where 51 consented to the study, and 45 responses were used for the
-analysis. These results were mainly from a convenience
-
+breakdown in our learner self-assessment was diverse
+(Figure \@ref(fig:surveySelfGroupedDemographics)),
+but our preliminary data was only collected from Virginia Tech students and
+faculty from biomedically relevant listservs. Future directions would include
+increasing the survey pool to get a better representation of potential learners.
+A larger survey pool would also help with the survey validation by potentially
+surveying a more diverse population and increase our N for the analysis. Our
+initial survey had 57 respondents, where 51 consented to the study, and 45
+responses were used for the analysis. These results were from a convenience
+sample from listservs at the university
 
 ### Aim 2: Create an effective data science for biomedical science curriculum based on best education and pedagogy practices. {-}
 
@@ -226,15 +212,15 @@ follows best pedagogical practices, and domain-specific is a key component to
 creating authentic tasks to aid in learner motivation. Using the feedback from
 learners to assess the learning materials, we can create more relevant learning
 modules, and the surveys and feedback system can be adapted to create other
-domain-specific learning materials.
+domain-specific learning materials.  
 
 #### Working Hypothesis {-}
 
-We hypothesize that a data science curriculum focused on data literacy
+We _hypothesize_ that a data science curriculum focused on data literacy
 principles from working with spreadsheet data will be the most relevant to our
-learners. We also hypothesize that the learning objectives we create will give
-the learner’s confidence in performing their own data analysis after going
-through the materials. By catering to the learner’s needs, and teaching the data
+learners. We also _hypothesize_ that the learning objectives we create will give
+the learner confidence in performing their own data analysis after going through
+the materials. By catering to the learner’s needs, and teaching the data
 literacy fundamentals, learners will be more motivated to continue learning on
 their own. To test this hypothesis, we will create a set of pre-workshop,
 post-workshop, and long-term workshop surveys. Since this is an observational
@@ -245,85 +231,108 @@ surveys to measure differences in response longitudinally.
 
 #### Preliminary Data for Aim 2. {-}
 
-A data science curriculum based on learner personas was created and used to
+. A data science curriculum based on learner personas was created and used to
 teach a set of workshops. Preliminary data collected before and after the
-workshop compare a learner’s confidence of meeting learning objectives, and show
+workshop compare a learner’s confidence of meeting learning objectives and show
 that the learners are more confident in their skills and learning objectives
-(Figure \@ref(fig:surveyPostLikertDiffSelfAssessment) and
-\@ref(fig:surveyPostLikertDiffLO)). In both figures, the number of responses from
-the pre-workshop results was subtracted from the number of results in the
-post-workshop results, giving us the net change in people after the workshop. A
-blue positive number indicates the shift in the number of participants at the
-end of the workshop, compared to the red negative numbers pre-workshop.
+(Figure \@ref(fig:surveyPostLikertDiffSelfAssessment)
+and
+Figure \@ref(fig:surveyPostLikertDiffLO)).
 
+<!--
 ```{r, echo=FALSE}
-fig_cap <- "**Summary likert responses pre-post changes.** Changes in the likert table responses from the pre-workshop and post-workshop survey. Results show that learners are more confident in their programming abilities when working with data."
+lo4_caption <- "**Changes from the pre-wokshop and post-workshop responses.** The numbers show the differences from the pre-workshop counts, from the post-workshop counts. White (0) means there was a net 0 difference between reponses. Blue represents where more responses went to after the workshop and red represents the number of people who migrated from a particular response after the workshop."
 ```
 
-```{r surveyPostLikertDiffSelfAssessment, fig.cap=fig_cap, echo=FALSE}
-fs::file_copy(here::here("../dissertation-analysis/", "./output", "survey", "03-post_workshop", "diff-likert-self_assessment.png"),
-              here::here("./figs/diff-likert-self_assessment.png"), overwrite = TRUE)
-knitr::include_graphics(here::here("./figs/diff-likert-self_assessment.png"))
-```
 
-```{r, echo=FALSE}
-fig_cap <- "**Learning objective pre-post changes.** Changes in the learner's confidence in the workshop's learning objectives from the pre-workshop and post-workshop surveys. Learners are more confident in their abilities from a data literacy perspective."
-```
-
-```{r surveyPostLikertDiffLO, fig.cap=fig_cap, echo=FALSE}
-fs::file_copy(here::here("../dissertation-analysis/", "./output", "survey", "03-post_workshop", "diff-likert-learning_objectives.png"),
-              here::here("./figs/diff-likert-learning_objectives.png"), overwrite = TRUE)
+```{r lo4, fig.cap=lo4_caption, echo=FALSE}
+fs::file_copy(here::here("../dissertation-analysis/output/survey/03-post_workshop/diff-likert-learning_objectives.png"),
+              here::here("./figs/"), overwrite = TRUE)
 knitr::include_graphics(here::here("./figs/diff-likert-learning_objectives.png"))
 ```
 
-These results came from 3 workshops, totaling of 72 registrants (Oct: 27, Feb: 45).
-From this we were able to teach 39 workshop attendees (Oct: 20, 11; Feb: 19, 16)
-and collected 25 pre-workshop responses, and 12 post workshop responses.
-We estimate we would need to run at least 12 more
-workshops to get enough respondents for the post-workshop responses. For the
-long-term survey (6 months), we may need to provide a financial incentive for
-participants to get enough responses.
+
+```{r, echo=FALSE}
+fig_cap <- "**Summary Likert responses pre-post changes.** Changes in the Likert table responses from the pre-workshop and post-workshop survey. The delta represents the net differences of responses in the post-workshop survey."
+```
+-->
+
+```{r, echo=FALSE}
+fig_cap <- "**Changes from the pre-wokshop and post-workshop responses.** The numbers show the differences from the pre-workshop counts, from the post-workshop counts. White (0) means there was a net 0 difference between reponses. Blue represents where more responses went to after the workshop and red represents the number of people who migrated from a particular response after the workshop."
+```
+
+```{r surveyPostLikertDiffSelfAssessment, fig.cap=fig_cap, echo=FALSE}
+fs::file_copy(here::here("../dissertation-analysis/", "./output", "survey", "03-post_workshop", "diff-Likert-self_assessment.png"),
+              here::here("./figs/diff-Likert-self_assessment.png"), overwrite = TRUE)
+knitr::include_graphics(here::here("./figs/diff-Likert-self_assessment.png"))
+```
+
+```{r, echo=FALSE}
+fig_cap <- "**Learning objective pre-post changes.** Changes in the learner's confidence in the workshop's learning objectives from the pre-workshop and post-workshop surveys. The delta represents the net differences of responses in the post-workshop survey."
+```
+
+```{r surveyPostLikertDiffLO, fig.cap=fig_cap, echo=FALSE}
+fs::file_copy(here::here("../dissertation-analysis/", "./output", "survey", "03-post_workshop", "diff-Likert-learning_objectives.png"),
+              here::here("./figs/diff-Likert-learning_objectives.png"), overwrite = TRUE)
+knitr::include_graphics(here::here("./figs/diff-Likert-learning_objectives.png"))
+```
+
+In both figures, the number of responses from the pre-workshop results was
+subtracted from the number of results in the post-workshop results, giving us
+the net change in people after the workshop. A blue positive number indicates
+the shift in the number of participants at the end of the workshop, compared to
+the red negative numbers pre-workshop.
+
+These results came from 3 workshops, totaling of 72 registrants (Oct: 27, Feb:
+45). From this we were able to teach 39 workshop attendees (Oct: 20, 11; Feb:
+19, 16) and collected 25 pre-workshop responses, and 12 post workshop responses.
+We estimate we would need to run at least 12 more workshops to get enough
+respondents for the post-workshop responses. For the long-term survey (6
+months), we may need to provide a financial incentive for participants to get
+enough responses.
 
 ##### 2.1: Learning objectives focused on core data literacy principles in the data science pipeline will be used for each lesson module. {-}
 
-In this subaim, we will create a data science curriculum that ties together data
-literacy and data management pipelines with the skills used in data science. Our
-preliminary learner personas guided us to use spreadsheet programs (e.g., Excel,
-LibreOffice, Google Sheets, etc.) as the first lesson module to orient the
-learners and use "tidy data principles" as the underlying theme to transform
-data. Preliminary data and a survey of available lesson materials show that
-there is a gap in available teaching materials that link data literacy concepts
-of data management and processing with other steps in the data science process.
-The initial modules will cover spreadsheets and data literacy basics, loading
-data into a programming language, tidy data principles, plotting, and logistic
-regression. Additional modules will cater to the feedback survey from the
-learners.
+In this sub aim, we will create a data science curriculum that ties together
+data literacy and data management pipelines with the skills used in data
+science. Our preliminary learner personas guided us to use spreadsheet programs
+(e.g., Excel, LibreOffice, Google Sheets, etc.) as the first lesson module to
+orient the learners and use “tidy data principles” as the underlying theme to
+transform data. Preliminary data and a survey of available lesson materials show
+that there is a gap in available teaching materials that link data literacy
+concepts of data management and processing with other steps in the data science
+process. The initial modules will cover spreadsheets and data literacy basics,
+loading data into a programming language, tidy data principles, plotting, and
+logistic regression. Additional modules will cater to the feedback survey from
+the learners.
 
 
 ##### 2.2 Lesson content follow best educational and pedagogical best practices. {-}
 
 The lesson materials created will follow the best educational and pedagogical
-best practices for learning programming. This includes (1) using a
+best practices for learning programming. This includes: (1) using a
 backwards-design approach to formulate the learning objectives from formative
-assessment questions [@wilson2019teaching];
-(2) blocks of content that fit roughly 50-minute segments
-to allow for breaks and formative assessments [@farrellPowerPitfallsPotential2018].
-The materials are also created to
-work in the context of classroom "periods"; (3) live-coded workshops where the
-instructor has learners follow along as the concepts are taught and discussed
+assessment questions
+[@wilson2019teaching];
+(2) blocks of content that fit roughly 50-minute segments to allow for breaks
+and formative assessments
+[@farrellPowerPitfallsPotential2018].
+The materials are also created to work in the context of classroom “periods”;
+(3) live-coded workshops where the instructor has learners follow along as the
+concepts are taught and discussed
 [@farrellPowerPitfallsPotential2018];
 (4) code of conduct for learners to feel safe in the learning environment
-[@ambrose2010learning; @wilson2019teaching]; (5)
-live captioning during the workshop event and descriptive alternative text for
-each figure and image in the online materials to work with screen readers for
-accessibility.
-By creating materials that assume no prior knowledge of programming and use
-relevant examples, students are likely to be more enguaged with learning
-the materials [@farrellPowerPitfallsPotential2018; @ambrose2010learning; @wilson2019teaching].
+[@ambrose2010learning; @wilson2019teaching];
+(5) live captioning during the workshop event and descriptive alternative text
+for each figure and image in the online materials to work with screen readers
+for accessibility. By creating materials that assume no prior knowledge of
+programming and use relevant examples, students are likely to be more engaged
+with learning the materials
+[@farrellPowerPitfallsPotential2018; @ambrose2010learning; @wilson2019teaching].
 
 ##### 2.3 Assess the effectiveness of learning materials. {-}
 
-In this subaim, we will assess how effective the lesson materials and its
+In this sub aim, we will assess how effective the lesson materials and its
 learning objectives are by comparing results from a pre-workshop and
 post-workshop survey. Survey participants will have a unique identifier that can
 be used to track individual differences and be aggregated to look at the overall
@@ -359,63 +368,64 @@ mainly measure the learner’s confidence towards a learning objective as a prox
 for a summative assessment. These results are self-reported and may show
 response bias.
 
-### Aim 3: Assess the effectiveness of formative assessments in learning learning objectives. {-}
+### Aim 3: Assess the effectiveness of formative assessments in learning objectives. {-}
 
-Formative assessments "forms" the teaching in real time by informing the
-instructor what concepts learners are getting wrong [@wilson2019teaching]. At
-the end of a lesson, a summative assessment can be used to assess learners about
-all of the individual concepts integrated together. @ambrose2010learning tells
-us that "goal-directed practice coupled with targeted feedback are critical to
-learning." Examining if automatic grading systems can be combined with
-informative feedback can lead to better learning outcomes can identify
+Formative assessments “forms” the teaching in real time by informing the
+instructor what concepts learners are getting wrong
+[@wilson2019teaching].
+At the end of a lesson, a summative assessment can be used to assess learners
+about all of the individual concepts integrated together.
+@ambrose2010learning
+tells us that “goal-directed practice coupled with targeted feedback are
+critical to learning.” Examining if automatic grading systems can be combined
+with informative feedback can lead to better learning outcomes can identify
 techniques to improve the democratization of data science education.
 
 #### Working Hypothesis. {-}
 
-We hypothesize that formative assessments with targeted and informative feedback
+We _hypothesize_ that formative assessments with targeted and informative feedback
 about incorrect solutions, will allow learners to complete formative and
-summative assessment questions with a higher rate of success. We also
-hypothesize that guiding learners with Parsons problems and faded in formative
-feedback exercises will help them solve summative feedback questions faster.
+summative assessment questions with a higher rate of success. We expect that
+guiding learners with Parson's problems and Faded in formative feedback
+exercises will help them solve summative feedback questions faster.
 
 #### Preliminary Data for Aim 3. {-}
 
 Our hypothesis is based on computer science education literature that uses
 different question types for formative assessment questions to aid in learning
-content. These question types (faded examples and parson’s problems) are used in
-lieu of a blank box where the learner’s write code from scratch because it
-lowers the cognitive load of the learner’s and allows them to focus on the key
-aspect off the coding exercise, instead of wresting with the syntax of the code.
+content. These question types (Faded examples and Parson’s problems) are used in
+lieu of a blank box where the learners write code from scratch because it lowers
+the cognitive load of the learners and allows them to focus on the key aspect of
+the coding exercise, instead of wrestling with the syntax of the code.
 
 ##### 3.1: Implement an experiment for conducting formative and summative assessment question types. {-}
 
-The shinysurveys R package (https://github.com/jdtrat/shinysurveys) provides the
-framework needed to create and administer an experimental study that can be used
-to collect response data from user submitted code. It leverages the learnr R
-package that allows instructors to create lesson materials with an input field
-that can execute code. The gradethis library can be used to check R and Python
-code for the correct result to provide feedback to the student. gradethis also
-has the ability to check the syntax of the code itself to point to an exact part
-of the code that is incorrect, instead of giving a programming error or
-non-meaningful "incorrect" message. shinysurveys can be used in conjunction with
-the tools and techniques from "Data Science in a Box"
-(https://datasciencebox.org/) to collect the responses from the student for
-analysis using the learnrhash library (https://github.com/rundel/learnrhash/).
-These responses are "hashed" such that all the data that is encoded is resented
-in plain text, but indecipherable to the user.
+The `shinysurveys` R package provides the framework needed to create and
+administer an experimental study that can be used to collect response data from
+user submitted code. It leverages the learnr R package that allows instructors
+to create lesson materials with an input field that can execute code. The
+`gradethis` library can be used to check R and Python code for the correct result
+to provide feedback to the student. `gradethis` also can check the syntax of the
+code itself to point to an exact part of the code that is incorrect, instead of
+giving a programming error or non-meaningful “incorrect” message. `shinysurveys`
+can be used in conjunction with the tools and techniques from “Data Science in a
+Box” to collect the responses from the student for analysis using the `learnrhash`
+library. These responses are “hashed” such that all the data that is encoded is
+resented in plain text, but indecipherable to the user.
 
-##### 3.2: Assess the effectiveness of targeted feedback in autograding systems used in formative and summative feedback. {-}
+##### 3.2: Assess the effectiveness of targeted feedback in auto-grading systems used in formative and summative feedback. {-}
 
 In this aim, we will show an improvement in the success rate of assessment
 questions when targeted feedback about the incorrect solution is given by the
 learner. We recognize the importance of feedback in the learning process
-[@ambrose2010learning], but it is not possible to give real-time feedback during
-many assessment questions, especially when teaching at scale. We hope to take
-the results from our implementation of shinysurveys and “Data Science in a Box”
-to collect learner assessment performance and compare the differences between
-learners who are given different types of assessment questions from those who
-are simply given an empty box to type code with and without informative feedback
-from the auto-grader. We currently have a population of students in our own lab,
+[@ambrose2010learning],
+but it is not possible to give real-time feedback during many assessment
+questions, especially when teaching at scale. We hope to take the results from
+our implementation of `shinysurveys` and “Data Science in a Box” to collect
+learner assessment performance and compare the differences between learners who
+are given several types of assessment questions from those who are simply given
+an empty box to type code with and without informative feedback from the
+auto-grader. We currently have a population of students in our own lab,
 DataBridge, with new data science learners who can be used to take entire
 workshops and/or short modules where the results from the formative and
 summative assessments can be recorded.
@@ -423,21 +433,21 @@ summative assessments can be recorded.
 #### Anticipated results and their impact. {-}
 
 We predict an improvement in speed and correct responses in students’ final
-summative assessment when they are given who are given question types other than
-an empty text box in the formative assessment. While these question types are
-used in computer science education literature, these techniques have not been
-studied yet to show whether adding the additional cognitive load of completing a
-data related task helps with learning the materials. We anticipate that these
-results will give future educators the types of questions that can be used for
-formative assessments when teaching.
+summative assessment when they are given who are given question types rather
+than an empty text box in the formative assessment. While these question types
+are used in computer science education literature, these techniques have not
+been studied yet to show whether adding the cognitive load of completing a data
+related task helps with learning the materials. We anticipate that these results
+will give future educators the types of questions that can be used for formative
+assessments when teaching.
 
 #### Potential pitfalls, alternative approaches, and future directions. {-}
 
 The study will aim to only teach a single portion of the overall lesson
-materials, it’s possible that the amount of information used for this aim will
+materials, it is possible that the amount of information used for this aim will
 be either too simple or too complex for participants given the time constraints.
 If that is the case, we may resort to only looking at the amount of time to
-complete a solution, rather than comparing if the different groups are answering
+complete a solution, rather than comparing if the distinct groups are answering
 the question correctly. An additional set of workshops are also going to be
 planned to include the data collection portion of this aim. Since the workshop
 is going to be more time intensive, there will be a bias in the participants who
