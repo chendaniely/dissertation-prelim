@@ -11,7 +11,7 @@ bibliography: [book.bib, packages.bib, prelims.bib]
 csl: apa-no-ampersand.csl
 link-citations: yes
 github-repo: chendaniely/dissertation-prelim
-description: "My prelims a la R01"
+description: "Prelim a la NIH R01"
 ---
 
 # Prelim a la NIH R01 {-}
