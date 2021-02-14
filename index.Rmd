@@ -16,17 +16,20 @@ description: "Prelim a la NIH R01"
 
 # Prelim a la NIH R01 {-}
 
-Research Proposal submitted to the Faculty of the
-Virginia Polytechnic Institute and State University
+<center>
+Research Proposal submitted to the Faculty of the<br>
+Virginia Polytechnic Institute and State University<br>
 in partial fulfillment of the requirements for the degree of
 
-Doctor of Philosophy
-In
+Doctor of Philosophy<br>
+In<br>
 Genetics, Bioinformatics, and Computational Biology
 
-Dr. Anne M. Brown (Chair)
-Dr. Alexandra L. Hanlon
-Dr. David M. Higdon
-Dr. Stephanie N. Lewis
+Dr. Anne M. Brown (Chair)<br>
+Dr. Alexandra L. Hanlon<br>
+Dr. David M. Higdon<br>
+Dr. Stephanie N. Lewis<br>
+
 
 February 19, 2021
+</center>
