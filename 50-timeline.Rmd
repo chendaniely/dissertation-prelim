@@ -15,8 +15,8 @@ project <- tibble::tribble(
   "Aim 2: Create data science curriculum", "2.2: Lesson content", 6, 22,
   "Aim 2: Create data science curriculum", "2.3: Assess learning materials", 6, 22,
   
-  "Aim 3: Assess formative assessments", "3.1: Implement an experiment", 7, 9,
-  "Aim 3: Assess formative assessments", "3.2: Assess the effectiveness of targeted feedback", 10, 22,
+  "Aim 3: Assess formative assessments", "3.1: Implement an experiment", 13, 18,
+  "Aim 3: Assess formative assessments", "3.2: Assess the effectiveness of targeted feedback", 16, 22,
 )
 
 g <- ganttrify(project = project,
