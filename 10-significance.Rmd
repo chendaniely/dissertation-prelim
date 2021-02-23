@@ -149,8 +149,8 @@ dendo_caption <- "**Learner self-assessment clusters.** Four clusters created fr
 ```
 
 ```{r dendogram4, fig.cap=dendo_caption, echo=FALSE}
-fs::file_copy(here::here("../dissertation-analysis/output/persona/dendogram_4.png"),
-              here::here("./figs/"), overwrite = TRUE)
+# fs::file_copy(here::here("../dissertation-analysis/output/persona/dendogram_4.png"),
+#               here::here("./figs/"), overwrite = TRUE)
 knitr::include_graphics(here::here("./figs/dendogram_4.png"))
 ```
 
@@ -232,8 +232,8 @@ post_summative_assessment_caption <- "**Example summative assessment response in
 ```
 
 ```{r postSummativeAssessment, fig.cap=post_summative_assessment_caption, echo=FALSE}
-fs::file_copy(here::here("../dissertation-analysis/output/survey/03-post_workshop/Q5.1.png"),
-              here::here("./figs/"), overwrite = TRUE)
+# fs::file_copy(here::here("../dissertation-analysis/output/survey/03-post_workshop/Q5.1.png"),
+#               here::here("./figs/"), overwrite = TRUE)
 knitr::include_graphics(here::here("./figs/Q5.1.png"))
 ```
 

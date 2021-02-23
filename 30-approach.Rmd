@@ -97,8 +97,8 @@ fig_cap <- "**Grouped demographic counts.** Occupation counts from learner self-
 ```
 
 ```{r surveySelfGroupedDemographics, fig.cap=fig_cap, echo=FALSE, echo=FALSE, out.width= "50%", out.extra='style="float:left; padding:10px"'}
-fs::file_copy(here::here("../dissertation-analysis/", "./output", "survey", "01-self_assessment", "grouped_demographics.png"),
-              here::here("./figs/"), overwrite = TRUE)
+# fs::file_copy(here::here("../dissertation-analysis/", "./output", "survey", "01-self_assessment", "grouped_demographics.png"),
+              # here::here("./figs/"), overwrite = TRUE)
 knitr::include_graphics(here::here("./figs/grouped_demographics.png"))
 ```
 
@@ -125,8 +125,8 @@ fig_cap <- "**Summary Likert responses.** Each respondanat was asked about their
 ```
 
 ```{r surveySelfLikert, fig.cap=fig_cap, echo=FALSE}
-fs::file_copy(here::here("../dissertation-analysis/", "./output", "survey", "01-self_assessment", "Likert.png"),
-              here::here("./figs/"), overwrite = TRUE)
+# fs::file_copy(here::here("../dissertation-analysis/", "./output", "survey", "01-self_assessment", "Likert.png"),
+#               here::here("./figs/"), overwrite = TRUE)
 knitr::include_graphics(here::here("./figs/Likert.png"))
 ```
 
@@ -146,8 +146,8 @@ fig_cap <- "**PCA results.** Cumulative proporation of explained variance using 
 ```
 
 ```{r personaPCACumProp, fig.cap=fig_cap, echo=FALSE, out.width= "50%", out.extra='style="float:left; padding:10px"'}
-fs::file_copy(here::here("../dissertation-analysis/", "./output", "persona", "pca_cum_prop.png"),
-              here::here("./figs/"), overwrite = TRUE)
+# fs::file_copy(here::here("../dissertation-analysis/", "./output", "persona", "pca_cum_prop.png"),
+#               here::here("./figs/"), overwrite = TRUE)
 knitr::include_graphics(here::here("./figs/pca_cum_prop.png"))
 ```
 
@@ -262,8 +262,8 @@ fig_cap <- "**Changes from the pre-wokshop and post-workshop responses.** The nu
 ```
 
 ```{r surveyPostLikertDiffSelfAssessment, fig.cap=fig_cap, echo=FALSE}
-fs::file_copy(here::here("../dissertation-analysis/", "./output", "survey", "03-post_workshop", "diff-likert-self_assessment.png"),
-              here::here("./figs/diff-likert-self_assessment.png"), overwrite = TRUE)
+# fs::file_copy(here::here("../dissertation-analysis/", "./output", "survey", "03-post_workshop", "diff-likert-self_assessment.png"),
+#               here::here("./figs/diff-likert-self_assessment.png"), overwrite = TRUE)
 knitr::include_graphics(here::here("./figs/diff-likert-self_assessment.png"))
 ```
 
@@ -272,8 +272,8 @@ fig_cap <- "**Learning objective pre-post changes.** Changes in the learner's co
 ```
 
 ```{r surveyPostLikertDiffLO, fig.cap=fig_cap, echo=FALSE}
-fs::file_copy(here::here("../dissertation-analysis/", "./output", "survey", "03-post_workshop", "diff-likert-learning_objectives.png"),
-              here::here("./figs/diff-likert-learning_objectives.png"), overwrite = TRUE)
+# fs::file_copy(here::here("../dissertation-analysis/", "./output", "survey", "03-post_workshop", "diff-likert-learning_objectives.png"),
+#               here::here("./figs/diff-likert-learning_objectives.png"), overwrite = TRUE)
 knitr::include_graphics(here::here("./figs/diff-likert-learning_objectives.png"))
 ```
 
